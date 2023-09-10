@@ -13,6 +13,8 @@ This site presents the datasets collected from our research platform, featuring 
 * One mmWave Radar
 * Four Audio Array Nodes 
 
+
+<!--
 The comprehensive sensor suite resembles that of an autonomous driving car, but features distinct and challenging characteristics of aerial operations. The flight tests are conducted in a variety of both indoor and outdoor conditions.
 
 # Citation
@@ -39,7 +41,7 @@ If you use some resource from this data suite, please cite it as
 **26/09/2022**: Extra sequences (rtp_01, rtp_02, rtp_03, tnp_01, tnp_02, tnp_03, spms_01, spms_02, spms_03) in more challenging scenarios are added.
 
 **12/07/2022**: The ouster pointcloud and IMU messages are found to jitter due to synchronization issues. A script to regularize the ouster pointcloud and imu topics can be downloaded [here](https://github.com/ntu-aris/ntu_viral_dataset/blob/gh-pages/utils/restamp.py).
-
+-->
 # Downloads
 
 Note: The files below are hosted on [NTU Data Repository](https://researchdata.ntu.edu.sg/dataset.xhtml?persistentId=doi:10.21979/N9/X39LEK).
