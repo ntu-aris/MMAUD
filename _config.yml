@@ -1,7 +1,7 @@
-title: MMAUD
-description: A Comprehensive Datasuite for Autonomous Aerial Vehicles
+title: MMAUD 
+description: A Comprehensive Multi-Modal Anti-UAV Dataset for Detection, Classification, Tracking and Trajectory Estimation of Compact Commercially Available Drones Threats
 
-theme: null
+theme: jekyll-theme-cayman
 
 # debug:
 #   compress: true

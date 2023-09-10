@@ -1,19 +1,21 @@
 <p align="center">
-    <img src="images/demo_eee_01.gif" alt="EEE_01 VIRAL SLAM" width="33%"/>
-    <img src="images/demo_sbs_01.gif" alt="SBS_01 VIRAL SLAM" width="33%"/>
-    <img src="images/demo_nya_01.gif" alt="NBA_01 VIRAL SLAM" width="33%"/>
+    <img src="images/drone_images.jpg" alt="Common COTS Drone Types in Market" width="100%"/>
 </p>
 
-# [NTU VIRAL: A Visual-Inertial-Ranging-Lidar Dataset for Autonomous Aerial Vehicle](https://ntu-aris.github.io/ntu_viral_dataset/)
+# [MMAUD: A Comprehensive Multi-Modal Anti-UAV Dataset for Detection, Classification, Tracking and Trajectory Estimation of Compact Commercially Available Drones Threats](https://ntu-aris.github.io/MMAUD/)
 
 
-This site presents the datasets collected from our research Unmanned Aerial Vehicle (UAV) platform, featuring an extensive set of sensors:
+(https://ntu-aris.github.io/MMAUD/))
 
-* Two 3D lidars
+This site presents the datasets collected from our research platform, featuring an extensive set of sensors:
+
+* Two 3D lidars ( Conic LIDAR and Peripheral LIDAR)
 * Two time-synchronized cameras
-* Multiple Inertial Measurement Units (IMUs)
-* Four Ultra-wideband (UWB) nodes on UAV, ranging to three anchor nodes.
+* One mmWave Radar
+* Four Audio Array Nodes 
 
+
+<!--
 The comprehensive sensor suite resembles that of an autonomous driving car, but features distinct and challenging characteristics of aerial operations. The flight tests are conducted in a variety of both indoor and outdoor conditions.
 
 # Citation
@@ -40,7 +42,7 @@ If you use some resource from this data suite, please cite it as
 **26/09/2022**: Extra sequences (rtp_01, rtp_02, rtp_03, tnp_01, tnp_02, tnp_03, spms_01, spms_02, spms_03) in more challenging scenarios are added.
 
 **12/07/2022**: The ouster pointcloud and IMU messages are found to jitter due to synchronization issues. A script to regularize the ouster pointcloud and imu topics can be downloaded [here](https://github.com/ntu-aris/ntu_viral_dataset/blob/gh-pages/utils/restamp.py).
-
+-->
 # Downloads
 
 Note: The files below are hosted on [NTU Data Repository](https://researchdata.ntu.edu.sg/dataset.xhtml?persistentId=doi:10.21979/N9/X39LEK).
