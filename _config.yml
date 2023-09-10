@@ -1,21 +1,31 @@
-title: NTU Aerial Robotics and Intelligent Systems
-email: ntu.aris.eee@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+title: NTU VIRAL DATASET
+description: A Comprehensive Datasuite for Autonomous Aerial Vehicles
 
-# disabled because we are using a custom domain
-#baseurl: /business-frontpage 
+theme: null
 
-color-scheme: "cornflowerblue" # the scheme can be any HEX code like "#00aa55"
+# debug:
+#   compress: true
+#   dist: false
+#   shortcodes: true
 
-sass:
-  sass_dir: /assets/css/_sass
-  style: compressed
+readme_index:
+  with_frontmatter: true
 
-include:
-  - _pages
+plugins:
+  - jemoji
+  - jekyll-avatar
+  - jekyll-mentions
 
 exclude:
-  - .sass-cache
+  - Makefile
+  - CNAME
+  - LICENSE
+  - update.sh
+  - Gemfile
+  - Gemfile.lock
+  - requirements.txt
+  - node_modules
+  - package.json
+  - package-lock.json
+  - webpack.config.js
+  - jekyll-rtd-theme.gemspec
