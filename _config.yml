@@ -1,0 +1,21 @@
+title: NTU Aerial Robotics and Intelligent Systems
+email: ntu.aris.eee@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+
+# disabled because we are using a custom domain
+#baseurl: /business-frontpage 
+
+color-scheme: "cornflowerblue" # the scheme can be any HEX code like "#00aa55"
+
+sass:
+  sass_dir: /assets/css/_sass
+  style: compressed
+
+include:
+  - _pages
+
+exclude:
+  - .sass-cache
