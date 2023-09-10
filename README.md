@@ -4,7 +4,7 @@
     <img src="images/demo_nya_01.gif" alt="NBA_01 VIRAL SLAM" width="33%"/>
 </p>
 
-# [MMAUD: A Comprehensive Multi-Modal Anti-UAV Dataset for Detection, Classification, Tracking and Trajectory Estimation of Compact Commercially Available Drones Threats]([https://ntu-aris.github.io/MMAUD/]
+# [MMAUD: A Comprehensive Multi-Modal Anti-UAV Dataset for Detection, Classification, Tracking and Trajectory Estimation of Compact Commercially Available Drones Threats]([https://ntu-aris.github.io/MMAUD/])
 
 
 (https://ntu-aris.github.io/MMAUD/))
