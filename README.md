@@ -1,7 +1,5 @@
 <p align="center">
-    <img src="images/demo_eee_01.gif" alt="EEE_01 VIRAL SLAM" width="33%"/>
-    <img src="images/demo_sbs_01.gif" alt="SBS_01 VIRAL SLAM" width="33%"/>
-    <img src="images/demo_nya_01.gif" alt="NBA_01 VIRAL SLAM" width="33%"/>
+    <img src="images/drone_images.jpg" alt="Common COTS Drone Types in Market" width="100%"/>
 </p>
 
 # [MMAUD: A Comprehensive Multi-Modal Anti-UAV Dataset for Detection, Classification, Tracking and Trajectory Estimation of Compact Commercially Available Drones Threats](https://ntu-aris.github.io/MMAUD/)
