@@ -90,28 +90,66 @@ Note: All rosbag data has been compressed using 'rosbag compress' to reduce its 
     <td class="tg-9m02"><a href=" " target="_blank" rel="noopener noreferrer">.zip</a></td>
     <td class="tg-6ibf">7.0 GB</td>
     <td class="tg-6ibf">321.1 s</td>
-    <td class="tg-v8dz">Collected at the School of EEE central carpark</td>
+    <td class="tg-v8dz">Collected at the rooftop</td>
   </tr>
   <tr>
     <td class="tg-v8dz">DJI Phantom4</td>
     <td class="tg-9m02"><a href=" " target="_blank" rel="noopener noreferrer">.zip</a></td>
     <td class="tg-6ibf">4.3 GB</td>
     <td class="tg-6ibf">181.4 s</td>
-    <td class="tg-v8dz">Collected at the School of EEE central carpark</td>
+    <td class="tg-v8dz">Collected at the rooftop</td>
   </tr>
   <tr>
     <td class="tg-v8dz">DJI Avata FPV</td>
     <td class="tg-9m02"><a href=" " target="_blank" rel="noopener noreferrer">.zip</a></td>
     <td class="tg-6ibf">8.6 GB</td>
     <td class="tg-6ibf">396.3 s</td>
-    <td class="tg-v8dz">Collected inside the Nanyang Auditorium</td>
+    <td class="tg-v8dz">Collected at the rooftop</td>
   </tr>
   <tr>
     <td class="tg-v8dz">DJI M300</td>
     <td class="tg-9m02"><a href=" " target="_blank" rel="noopener noreferrer">.zip</a></td>
     <td class="tg-6ibf">9.4 GB</td>
     <td class="tg-6ibf">428.7 s</td>
-    <td class="tg-v8dz">Collected inside the Nanyang Auditorium</td>
+    <td class="tg-v8dz">Collected at the rooftop</td>
+  </tr>
+
+
+
+  <tr>
+    <td class="tg-v8dz">DJi Mavic2</td>
+    <td class="tg-6ibf"><a href=" " target="_blank" rel="noopener noreferrer">.zip</a></td>
+    <td class="tg-6ibf">11.1 GB</td>
+    <td class="tg-6ibf">198s</td>
+    <td class="tg-v8dz">Collected at the carpark </td>
+  </tr>
+  <tr>
+    <td class="tg-v8dz">DJi Mavic3</td>
+    <td class="tg-9m02"><a href=" " target="_blank" rel="noopener noreferrer">.zip</a></td>
+    <td class="tg-6ibf">7.0 GB</td>
+    <td class="tg-6ibf">321.1 s</td>
+    <td class="tg-v8dz">Collected at the carpark</td>
+  </tr>
+  <tr>
+    <td class="tg-v8dz">DJI Phantom4</td>
+    <td class="tg-9m02"><a href=" " target="_blank" rel="noopener noreferrer">.zip</a></td>
+    <td class="tg-6ibf">4.3 GB</td>
+    <td class="tg-6ibf">181.4 s</td>
+    <td class="tg-v8dz">Collected at the carpark</td>
+  </tr>
+  <tr>
+    <td class="tg-v8dz">DJI Avata FPV</td>
+    <td class="tg-9m02"><a href=" " target="_blank" rel="noopener noreferrer">.zip</a></td>
+    <td class="tg-6ibf">8.6 GB</td>
+    <td class="tg-6ibf">396.3 s</td>
+    <td class="tg-v8dz">Collected at the carpark</td>
+  </tr>
+  <tr>
+    <td class="tg-v8dz">DJI M300</td>
+    <td class="tg-9m02"><a href=" " target="_blank" rel="noopener noreferrer">.zip</a></td>
+    <td class="tg-6ibf">9.4 GB</td>
+    <td class="tg-6ibf">428.7 s</td>
+    <td class="tg-v8dz">Collected at the carpark</td>
   </tr>
  
 </tbody>
