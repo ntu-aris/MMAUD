@@ -44,15 +44,185 @@ If you use some resource from this data suite, please cite it as
 **12/07/2022**: The ouster pointcloud and IMU messages are found to jitter due to synchronization issues. A script to regularize the ouster pointcloud and imu topics can be downloaded [here](https://github.com/ntu-aris/ntu_viral_dataset/blob/gh-pages/utils/restamp.py).
 -->
 # Downloads
-
+<!--
 Note: The files below are hosted on [NTU Data Repository](https://researchdata.ntu.edu.sg/dataset.xhtml?persistentId=doi:10.21979/N9/X39LEK).
 If you experience interuption from the NTU Data Reposity, please try downloading the files from this [Onedrive folder](https://entuedu-my.sharepoint.com/:f:/g/personal/shyuan_staff_main_ntu_edu_sg/EvyxXbi1l5tHonBWIQxueBoByr1-E-w7fgRyHNTsCmwFcg).
 
 Groundtruth is included in the bag. Do check out [this example](https://github.com/brytsknguyen/VINS-Mono/blob/392c8c5732d31445b266b9ca2e2f38a5a4d82d55/vins_estimator/launch/run_one_bag_ntuviral.sh#L68) on how to extract the data into the csv format.
+-->
 
-<span style="color:red"> Note: All rosbag data has been compressed using 'rosbag compress' to reduce its size by a factor of 3. If you directly run 'rosbag play,' the playback frequency will be reduced. To restore the bag to its full rate, please use the 'rosbag decompress' command. </span>
+The files below are hosted on OneDrive. If you having problem downloading from onedrive, do raise an issue. 
+ 
+Note: All rosbag data has been compressed using 'rosbag compress' to reduce its size by a factor of 3. If you directly run 'rosbag play,' the playback frequency will be reduced. To restore the bag to its full rate, please use the 'rosbag decompress' command.
 
 
+<a name="tab-download"></a>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-6ibf{border-color:inherit;font-size:18px;text-align:center;vertical-align:top}
+.tg .tg-v8dz{border-color:inherit;font-size:18px;text-align:left;vertical-align:top}
+.tg .tg-9m02{border-color:inherit;color:#00E;font-size:18px;text-align:center;text-decoration:underline;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-6ibf">Name</th>
+    <th class="tg-6ibf">Link</th>
+    <th class="tg-6ibf">Size</th>
+    <th class="tg-6ibf">Duration</th>
+    <th class="tg-6ibf">Remark</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-v8dz">DJi Mavic2</td>
+    <td class="tg-6ibf"><a href="https://entuedu-my.sharepoint.com/:u:/g/personal/shyuan_staff_main_ntu_edu_sg/ETLBFOa_MtdKqFPZ9IpGrAoBoh3NPMYVYJFXtlAqC3LfUw?e=N0Dihz" target="_blank" rel="noopener noreferrer">.zip</a></td>
+    <td class="tg-6ibf">11.1 GB</td>
+    <td class="tg-6ibf">198s</td>
+    <td class="tg-v8dz">Collected with the fake intention of dropping payload to the ground.</td>
+  </tr>
+  <tr>
+    <td class="tg-v8dz">eee_02</td>
+    <td class="tg-9m02"><a href="https://researchdata.ntu.edu.sg/api/access/datafile/68131" target="_blank" rel="noopener noreferrer">.zip</a></td>
+    <td class="tg-6ibf">7.0 GB</td>
+    <td class="tg-6ibf">321.1 s</td>
+    <td class="tg-v8dz">Collected at the School of EEE central carpark</td>
+  </tr>
+  <tr>
+    <td class="tg-v8dz">eee_03</td>
+    <td class="tg-9m02"><a href="https://researchdata.ntu.edu.sg/api/access/datafile/68132" target="_blank" rel="noopener noreferrer">.zip</a></td>
+    <td class="tg-6ibf">4.3 GB</td>
+    <td class="tg-6ibf">181.4 s</td>
+    <td class="tg-v8dz">Collected at the School of EEE central carpark</td>
+  </tr>
+  <tr>
+    <td class="tg-v8dz">nya_01</td>
+    <td class="tg-9m02"><a href="https://researchdata.ntu.edu.sg/api/access/datafile/68144" target="_blank" rel="noopener noreferrer">.zip</a></td>
+    <td class="tg-6ibf">8.6 GB</td>
+    <td class="tg-6ibf">396.3 s</td>
+    <td class="tg-v8dz">Collected inside the Nanyang Auditorium</td>
+  </tr>
+  <tr>
+    <td class="tg-v8dz">nya_02</td>
+    <td class="tg-9m02"><a href="https://researchdata.ntu.edu.sg/api/access/datafile/68138" target="_blank" rel="noopener noreferrer">.zip</a></td>
+    <td class="tg-6ibf">9.4 GB</td>
+    <td class="tg-6ibf">428.7 s</td>
+    <td class="tg-v8dz">Collected inside the Nanyang Auditorium</td>
+  </tr>
+  <tr>
+    <td class="tg-v8dz">nya_03</td>
+    <td class="tg-9m02"><a href="https://researchdata.ntu.edu.sg/api/access/datafile/68142" target="_blank" rel="noopener noreferrer">.zip</a></td>
+    <td class="tg-6ibf">9.0 GB</td>
+    <td class="tg-6ibf">411.2 s</td>
+    <td class="tg-v8dz">Collected inside the Nanyang Auditorium</td>
+  </tr>
+  <tr>
+    <td class="tg-v8dz">sbs_01</td>
+    <td class="tg-9m02"><a href="https://researchdata.ntu.edu.sg/api/access/datafile/68139" target="_blank" rel="noopener noreferrer">.zip</a></td>
+    <td class="tg-6ibf">7.8 GB</td>
+    <td class="tg-6ibf">354.2 s</td>
+    <td class="tg-v8dz">Collected at the School of Bio. Science's front square</td>
+  </tr>
+  <tr>
+    <td class="tg-v8dz">sbs_02</td>
+    <td class="tg-9m02"><a href="https://researchdata.ntu.edu.sg/api/access/datafile/68140" target="_blank" rel="noopener noreferrer">.zip</a></td>
+    <td class="tg-6ibf">8.2 GB</td>
+    <td class="tg-6ibf">373.3 s</td>
+    <td class="tg-v8dz">Collected at the School of Bio. Science's front square</td>
+  </tr>
+  <tr>
+    <td class="tg-v8dz">sbs_03</td>
+    <td class="tg-9m02"><a href="https://researchdata.ntu.edu.sg/api/access/datafile/68143" target="_blank" rel="noopener noreferrer">.zip</a></td>
+    <td class="tg-6ibf">8.5 GB</td>
+    <td class="tg-6ibf">389.3 s</td>
+    <td class="tg-v8dz">Collected at the School of Bio. Science's front square</td>
+  </tr>
+  <tr>
+    <td class="tg-v8dz">rtp_01</td>
+    <td class="tg-9m02"><a href="https://researchdata.ntu.edu.sg/api/access/datafile/98194" target="_blank" rel="noopener noreferrer">.zip</a></td>
+    <td class="tg-6ibf">5.0 GB</td>
+    <td class="tg-6ibf">354.2 s</td>
+    <td class="tg-v8dz">Collected at the Research Techno Plaza's carpark</td>
+  </tr>
+  <tr>
+    <td class="tg-v8dz">rtp_02</td>
+    <td class="tg-9m02"><a href="https://researchdata.ntu.edu.sg/api/access/datafile/98191" target="_blank" rel="noopener noreferrer">.zip</a></td>
+    <td class="tg-6ibf">5.2 GB</td>
+    <td class="tg-6ibf">373.3 s</td>
+    <td class="tg-v8dz">Collected at the Research Techno Plaza's carpark</td>
+  </tr>
+  <tr>
+    <td class="tg-v8dz">rtp_03</td>
+    <td class="tg-9m02"><a href="https://researchdata.ntu.edu.sg/api/access/datafile/98193" target="_blank" rel="noopener noreferrer">.zip</a></td>
+    <td class="tg-6ibf">4.0 GB</td>
+    <td class="tg-6ibf">389.3 s</td>
+    <td class="tg-v8dz">Collected at the Research Techno Plaza's carpark</td>
+  </tr>
+  <tr>
+    <td class="tg-v8dz">tnp_01</td>
+    <td class="tg-9m02"><a href="https://researchdata.ntu.edu.sg/api/access/datafile/98195" target="_blank" rel="noopener noreferrer">.zip</a></td>
+    <td class="tg-6ibf">8.1 GB</td>
+    <td class="tg-6ibf">354.2 s</td>
+    <td class="tg-v8dz">Collected inside Research Techno Plaza</td>
+  </tr>
+  <tr>
+    <td class="tg-v8dz">tnp_02</td>
+    <td class="tg-9m02"><a href="https://researchdata.ntu.edu.sg/api/access/datafile/98196" target="_blank" rel="noopener noreferrer">.zip</a></td>
+    <td class="tg-6ibf">6.2 GB</td>
+    <td class="tg-6ibf">373.3 s</td>
+    <td class="tg-v8dz">Collected inside Research Techno Plaza</td>
+  </tr>
+  <tr>
+    <td class="tg-v8dz">tnp_03</td>
+    <td class="tg-9m02"><a href="https://researchdata.ntu.edu.sg/api/access/datafile/98189" target="_blank" rel="noopener noreferrer">.zip</a></td>
+    <td class="tg-6ibf">5.5 GB</td>
+    <td class="tg-6ibf">389.3 s</td>
+    <td class="tg-v8dz">Collected inside Research Techno Plaza</td>
+  </tr>
+  <tr>
+    <td class="tg-v8dz">spms_01</td>
+    <td class="tg-9m02"><a href="https://researchdata.ntu.edu.sg/api/access/datafile/98192" target="_blank" rel="noopener noreferrer">.zip</a></td>
+    <td class="tg-6ibf">5.5 GB</td>
+    <td class="tg-6ibf">354.2 s</td>
+    <td class="tg-v8dz">School of Physical and Mathematical Science's Facade</td>
+  </tr>
+  <tr>
+    <td class="tg-v8dz">spms_02</td>
+    <td class="tg-9m02"><a href="https://researchdata.ntu.edu.sg/api/access/datafile/98190" target="_blank" rel="noopener noreferrer">.zip</a></td>
+    <td class="tg-6ibf">4.0 GB</td>
+    <td class="tg-6ibf">373.3 s</td>
+    <td class="tg-v8dz">School of Physical and Mathematical Science's Facade</td>
+  </tr>
+  <tr>
+    <td class="tg-v8dz">spms_03</td>
+    <td class="tg-9m02"><a href="https://researchdata.ntu.edu.sg/api/access/datafile/98188" target="_blank" rel="noopener noreferrer">.zip</a></td>
+    <td class="tg-6ibf">5.0 GB</td>
+    <td class="tg-6ibf">389.3 s</td>
+    <td class="tg-v8dz">School of Physical and Mathematical Science's Facade</td>
+  </tr>
+  <tr>
+    <td class="tg-v8dz"><span style="font-weight:400;font-style:normal">calib_stereo</span></td>
+    <td class="tg-9m02"><a href="https://researchdata.ntu.edu.sg/api/access/datafile/58998" target="_blank" rel="noopener noreferrer">.zip</a></td>
+    <td class="tg-6ibf">49 MB</td>
+    <td class="tg-6ibf"> - </td>
+    <td class="tg-v8dz">Image pairs for intrinsic calibration</td>
+  </tr>
+  <tr>
+    <td class="tg-v8dz"><span style="font-weight:400;font-style:normal">calib_stereo_imu</span></td>
+    <td class="tg-9m02"><a href="https://researchdata.ntu.edu.sg/api/access/datafile/58978" target="_blank" rel="noopener noreferrer">.bag</a></td>
+    <td class="tg-6ibf">0.96 GB</td>
+    <td class="tg-6ibf">131.7 s</td>
+    <td class="tg-v8dz">Bag file for stereo camera - IMU calibration using Kalibr</td>
+  </tr>
+</tbody>
+</table>
+
+
+<!--
 <a name="tab-download"></a>
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
@@ -292,16 +462,18 @@ We have done some experiments of state-of-the-art methods on our the datasets. I
   </tr>
 </tbody>
 </table>
-
+-->
 # Related works
 
+
+<!--
 The datasets were used in the following papers. Please checkout these works if you are interested.
 (Please contact us if you would like your work mentioned here).
 * [FAST-LIVO: Fast and Tightly-coupled Sparse-Direct LiDAR-Inertial-Visual Odometry](https://github.com/hku-mars/FAST-LIVO)
 * [VIRAL SLAM: Tightly Coupled Camera-IMU-UWB-Lidar SLAM](https://arxiv.org/pdf/2105.03296.pdf)
 * [MILIOM: Tightly Coupled Multi-Input Lidar-Inertia Odometry and Mapping](https://ieeexplore.ieee.org/document/9431754) (RAL 2021)
 * [LIRO: Tightly Coupled Lidar-Inertia-Ranging Odometry](https://arxiv.org/abs/2010.13072) (ICRA 2021)
-
+-->
 
 
 # Notes:
@@ -309,7 +481,7 @@ For more information on the sensors and how to use the dataset, please checkout 
 
 For resources and other works of our group please checkout our [github](https://github.com/ntu-aris).
 
-If you have some inquiry, please raise an [issue](https://github.com/ntu-aris/ntu_viral_dataset/issues) on github.
+If you have some inquiry, please raise an [issue](https://github.com/ntu-aris/MMAUD/issues) on github.
 
 
 # Licence
