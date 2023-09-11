@@ -50,6 +50,8 @@ If you experience interuption from the NTU Data Reposity, please try downloading
 
 Groundtruth is included in the bag. Do check out [this example](https://github.com/brytsknguyen/VINS-Mono/blob/392c8c5732d31445b266b9ca2e2f38a5a4d82d55/vins_estimator/launch/run_one_bag_ntuviral.sh#L68) on how to extract the data into the csv format.
 
+Note: All rosbag data has been compressed using 'rosbag compress' to reduce its size by a factor of 3. If you directly run 'rosbag play,' the playback frequency will be reduced. To restore the bag to its full rate, please use the 'rosbag decompress' command.
+
 <a name="tab-download"></a>
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
