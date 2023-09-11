@@ -5,7 +5,6 @@
 # [MMAUD: A Comprehensive Multi-Modal Anti-UAV Dataset for Detection, Classification, Tracking and Trajectory Estimation of Compact Commercially Available Drones Threats](https://ntu-aris.github.io/MMAUD/)
 
 
-(https://ntu-aris.github.io/MMAUD/))
 
 This site presents the datasets collected from our research platform, featuring an extensive set of sensors:
 
