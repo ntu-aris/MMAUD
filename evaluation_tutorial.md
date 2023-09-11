@@ -4,6 +4,8 @@ sort: 3
 
 # Evaluation Tutorial
 
+
+<!--
 (It is recommended that readers take a look at [our paper]() to understand the idea underlying this tutorial.)
 
 ## Just try it!
@@ -132,3 +134,5 @@ P_est_rmse    = rms(P_est_err);
 P_est_ate     = norm(P_est_rmse);
 ```
 After this, the rest is for plotting and saving the result. We have completed the tutorial.
+
+--!>
