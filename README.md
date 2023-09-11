@@ -83,7 +83,7 @@ Note: All rosbag data has been compressed using 'rosbag compress' to reduce its 
     <td class="tg-6ibf"><a href="https://entuedu-my.sharepoint.com/:u:/g/personal/shyuan_staff_main_ntu_edu_sg/ETLBFOa_MtdKqFPZ9IpGrAoBoh3NPMYVYJFXtlAqC3LfUw?e=N0Dihz" target="_blank" rel="noopener noreferrer">.zip</a></td>
     <td class="tg-6ibf">11.1 GB</td>
     <td class="tg-6ibf">198s</td>
-    <td class="tg-v8dz">Collected with the fake intention of dropping payload to the ground.</td>
+    <td class="tg-v8dz">Collected at the rooftop </td>
   </tr>
   <tr>
     <td class="tg-v8dz">DJi Mavic3</td>
