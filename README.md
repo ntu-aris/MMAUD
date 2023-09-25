@@ -156,6 +156,42 @@ We have done some experiments of state-of-the-art methods on our the datasets. I
 </tbody>
 </table>
 
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-c3ow">3D Method</th>
+    <th class="tg-c3ow">Repository</th>
+    <th class="tg-c3ow">Credit</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky">ResNet</td>
+    <td class="tg-0pky"> <a href="Paper under Review, not yet open"><span style="color:#905">Paper under Review, not yet open</span></a></td>
+    <td class="tg-0pky">Forked from https://github.com/Lornatang/ResNet-PyTorch</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">VGG</td>
+    <td class="tg-0pky"> <a href="Paper under Review, not yet open"><span style="color:#905">Paper under Review, not yet open</span></a></td>
+    <td class="tg-0pky">Forked from https://github.com/Lornatang/VGG-PyTorch</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Darknet</td>
+    <td class="tg-0pky"> <a href="Paper under Review, not yet open"><span style="color:#905">Paper under Review, not yet open</span></a></td>
+    <td class="tg-0pky">Forked from https://github.com/pjreddie/darknet</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">VorasNet</td>
+    <td class="tg-0pky"> <a href="Paper under Review, not yet open"><span style="color:#905">Paper under Review, not yet open</span></a></td>
+    <td class="tg-0pky">Forked from https://github.com/amdegroot/ssd.pytorch</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Audio Transformer</td>
+    <td class="tg-0pky"> <a href="Paper under Review, not yet open"><span style="color:#905">Paper under Review, not yet open</span></a></td>
+    <td class="tg-0pky">Forked from https://github.com/sharathadavanne/seld-dcase2021</td>
+  </tr>
+</tbody>
+</table>
 <!--
 <a name="tab-download"></a>
 <style type="text/css">
