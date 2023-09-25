@@ -127,6 +127,11 @@ Note: All rosbag data has been compressed using 'rosbag compress' to reduce its 
 </tbody>
 </table>
 
+<p align="center">
+    <img src="images/Data_visualization_all.png" alt="Data used in this project" width="100%"/>
+</p>
+
+
 # Quick use
 
 We have done some experiments of state-of-the-art methods on our the datasets. If you are seeking to do the same, please check out the following to get the work done quickly.
@@ -182,11 +187,12 @@ We have done some experiments of state-of-the-art methods on our the datasets. I
 
 
 <p align="center">
-    <img src="images/2ddetection_result.png" alt=" 2D Detection Result Graph " width="100%"/>
+    <img src="images/2ddetection_result.png" alt=" 2D Detection Result Graph " width="50%"/>
 </p>
 <p align="center">
-    <img src="images/visual_detection_results.png" alt=" 2D Detection Result Visual " width="100%"/>
+    <img src="images/visual_detection_results.png" alt=" 2D Detection Result Visual " width="50%"/>
 </p>
+
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
