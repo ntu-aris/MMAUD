@@ -146,55 +146,11 @@ We have done some experiments of state-of-the-art methods on our the datasets. I
 </thead>
 <tbody>
   <tr>
-    <td class="tg-0pky">Open-VINS</td>
-    <td class="tg-0pky"> <a href="https://github.com/brytsknguyen/open_vins"><span style="color:#905">https://github.com/brytsknguyen/open_vins</span></a></td>
-    <td class="tg-0pky">Forked from https://github.com/rpng/open_vins</td>
+    <td class="tg-0pky">YoloV5</td>
+    <td class="tg-0pky"> <a href="Paper under Review, not yet open"><span style="color:#905">https://github.com/ultralytics/yolov5</span></a></td>
+    <td class="tg-0pky">Forked from https://github.com/ultralytics/yolov5</td>
   </tr>
-  <tr>
-    <td class="tg-0pky">VINS-Fusion</td>
-    <td class="tg-0pky"><a href="https://github.com/brytsknguyen/VINS-Fusion"><span style="color:#905">https://github.com/brytsknguyen/VINS-Fusion</span></a></td>
-    <td class="tg-0pky">Forked from https://github.com/HKUST-Aerial-Robotics/VINS-Fusion</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">VINS-Mono</td>
-    <td class="tg-0pky"><a href="https://github.com/brytsknguyen/VINS-Mono"><span style="color:#905">https://github.com/brytsknguyen/VINS-Mono</span></a></td>
-    <td class="tg-0pky">Forked from https://github.com/HKUST-Aerial-Robotics/VINS-Mono</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">M-LOAM</td>
-    <td class="tg-0pky"><a href="https://github.com/brytsknguyen/M-LOAM"><span style="color:#905">https://github.com/brytsknguyen/M-LOAM</span></a></td>
-    <td class="tg-0pky">Forked from https://github.com/gogojjh/M-LOAM</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">LIO-SAM</td>
-    <td class="tg-0pky"><a href="https://github.com/brytsknguyen/LIO-SAM"><span style="color:#905">https://github.com/brytsknguyen/LIO-SAM</span></a></td>
-    <td class="tg-0pky">Forked from https://github.com/TixiaoShan/LIO-SAM</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">A-LOAM</td>
-    <td class="tg-0pky"><a href="https://github.com/brytsknguyen/A-LOAM"><span style="color:#905">https://github.com/brytsknguyen/A-LOAM</span></a></td>
-    <td class="tg-0pky">Forked from https://github.com/HKUST-Aerial-Robotics/A-LOAM</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">FAST-LIO</td>
-    <td class="tg-0pky"><a href="https://github.com/Kin-Zhang/FAST_LIO"><span style="color:#905">https://github.com/Kin-Zhang/FAST_LIO</span></a></td>
-    <td class="tg-0pky">Kindly provided by Kin-Zhang @ KTH RPL</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">FAST-LIVO</td>
-    <td class="tg-0pky"><a href="https://github.com/hku-mars/FAST-LIVO"><span style="color:#905">https://github.com/hku-mars/FAST-LIVO</span></a></td>
-    <td class="tg-0pky">MARS Lab, HKU</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">SLICT</td>
-    <td class="tg-0pky"><a href="https://github.com/brytsknguyen/SLICT"><span style="color:#905">https://github.com/brytsknguyen/SLICT</span></a></td>
-    <td class="tg-0pky">An NTU-KTH collaboration via Wallenberg-NTU Postdoctoral Fellowship </td>
-  </tr>
-    <tr>
-    <td class="tg-0pky">CLIC</td>
-    <td class="tg-0pky"><a href="https://github.com/brytsknguyen/clic"><span style="color:#905">https://github.com/brytsknguyen/clic</span></a></td>
-    <td class="tg-0pky">Forked from https://github.com/APRIL-ZJU/clic </td>
-  </tr>
+
 </tbody>
 </table>
 
