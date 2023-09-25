@@ -124,6 +124,79 @@ Note: All rosbag data has been compressed using 'rosbag compress' to reduce its 
 </tbody>
 </table>
 
+# Quick use
+
+We have done some experiments of state-of-the-art methods on our the datasets. If you are seeking to do the same, please check out the following to get the work done quickly.
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-c3ow">Method</th>
+    <th class="tg-c3ow">Repository</th>
+    <th class="tg-c3ow">Credit</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky">Open-VINS</td>
+    <td class="tg-0pky"> <a href="https://github.com/brytsknguyen/open_vins"><span style="color:#905">https://github.com/brytsknguyen/open_vins</span></a></td>
+    <td class="tg-0pky">Forked from https://github.com/rpng/open_vins</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">VINS-Fusion</td>
+    <td class="tg-0pky"><a href="https://github.com/brytsknguyen/VINS-Fusion"><span style="color:#905">https://github.com/brytsknguyen/VINS-Fusion</span></a></td>
+    <td class="tg-0pky">Forked from https://github.com/HKUST-Aerial-Robotics/VINS-Fusion</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">VINS-Mono</td>
+    <td class="tg-0pky"><a href="https://github.com/brytsknguyen/VINS-Mono"><span style="color:#905">https://github.com/brytsknguyen/VINS-Mono</span></a></td>
+    <td class="tg-0pky">Forked from https://github.com/HKUST-Aerial-Robotics/VINS-Mono</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">M-LOAM</td>
+    <td class="tg-0pky"><a href="https://github.com/brytsknguyen/M-LOAM"><span style="color:#905">https://github.com/brytsknguyen/M-LOAM</span></a></td>
+    <td class="tg-0pky">Forked from https://github.com/gogojjh/M-LOAM</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">LIO-SAM</td>
+    <td class="tg-0pky"><a href="https://github.com/brytsknguyen/LIO-SAM"><span style="color:#905">https://github.com/brytsknguyen/LIO-SAM</span></a></td>
+    <td class="tg-0pky">Forked from https://github.com/TixiaoShan/LIO-SAM</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">A-LOAM</td>
+    <td class="tg-0pky"><a href="https://github.com/brytsknguyen/A-LOAM"><span style="color:#905">https://github.com/brytsknguyen/A-LOAM</span></a></td>
+    <td class="tg-0pky">Forked from https://github.com/HKUST-Aerial-Robotics/A-LOAM</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">FAST-LIO</td>
+    <td class="tg-0pky"><a href="https://github.com/Kin-Zhang/FAST_LIO"><span style="color:#905">https://github.com/Kin-Zhang/FAST_LIO</span></a></td>
+    <td class="tg-0pky">Kindly provided by Kin-Zhang @ KTH RPL</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">FAST-LIVO</td>
+    <td class="tg-0pky"><a href="https://github.com/hku-mars/FAST-LIVO"><span style="color:#905">https://github.com/hku-mars/FAST-LIVO</span></a></td>
+    <td class="tg-0pky">MARS Lab, HKU</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">SLICT</td>
+    <td class="tg-0pky"><a href="https://github.com/brytsknguyen/SLICT"><span style="color:#905">https://github.com/brytsknguyen/SLICT</span></a></td>
+    <td class="tg-0pky">An NTU-KTH collaboration via Wallenberg-NTU Postdoctoral Fellowship </td>
+  </tr>
+    <tr>
+    <td class="tg-0pky">CLIC</td>
+    <td class="tg-0pky"><a href="https://github.com/brytsknguyen/clic"><span style="color:#905">https://github.com/brytsknguyen/clic</span></a></td>
+    <td class="tg-0pky">Forked from https://github.com/APRIL-ZJU/clic </td>
+  </tr>
+</tbody>
+</table>
 
 <!--
 <a name="tab-download"></a>
