@@ -3,7 +3,7 @@ sort: 2
 ---
 
 # Sensor Calibration 
-
+<!--
 This section aims to provide a sample on how to do the calibration with a different coefficient and verify the performance of the calibration results.
 
 Sensor intrinsic and extrinsic calibrations are the most critical factors in getting the higher precision results in the process, such as stereo matching, SLAM, multi-sensor fusion. 
@@ -184,3 +184,4 @@ right_rectified = cv2.remap(rightFrame, rightMapX, rightMapY, cv2.INTER_LINEAR, 
 ## Verification of stereo calibration (working in progress)
 
 ## Projecting pointclouds into camera image (working in progress)
+--!>
