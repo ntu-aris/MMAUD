@@ -224,4 +224,4 @@ In a typical navigation system, <img src="https://latex.codecogs.com/png.latex?\
 
 Note that the anchor positions are calculated by simple triangulation of anchor-to-anchor distance under the topic `/uwb_exorange_info` at the beginning of the data collection test. User can opt to estimating these on their own by subscribing to the topic `/uwb_exorange_info`.
 
---!>
+-->
