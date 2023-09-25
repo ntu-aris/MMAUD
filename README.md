@@ -122,7 +122,7 @@ We have done some experiments of state-of-the-art methods on our the datasets. I
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-c3ow">2D Method</th>
+    <th class="tg-c3ow">2D Detection</th>
     <th class="tg-c3ow">Repository</th>
     <th class="tg-c3ow">Credit</th>
   </tr>
@@ -159,7 +159,7 @@ We have done some experiments of state-of-the-art methods on our the datasets. I
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-c3ow">3D Method</th>
+    <th class="tg-c3ow">3D Pose Estimation</th>
     <th class="tg-c3ow">Repository</th>
     <th class="tg-c3ow">Credit</th>
   </tr>
