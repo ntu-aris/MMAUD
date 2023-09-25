@@ -183,10 +183,9 @@ We have done some experiments of state-of-the-art methods on our the datasets. I
 
 <p align="center">
     <img src="images/2ddetection_result.png" alt=" 2D Detection Result Graph " width="100%"/>
-    
 </p>
 <p align="center">
-     <img src="visual_detection_results.png" alt=" 2D Detection Result Visual " width="100%"/>
+    <img src="images/visual_detection_results.png" alt=" 2D Detection Result Visual " width="100%"/>
 </p>
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
