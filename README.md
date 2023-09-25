@@ -118,9 +118,6 @@ Note: All rosbag data has been compressed using 'rosbag compress' to reduce its 
     <td class="tg-6ibf">428.7 s</td>
     <td class="tg-v8dz">Not yet open</td>
   </tr>
-
-
- 
 </tbody>
 </table>
 
@@ -173,6 +170,7 @@ We have done some experiments of state-of-the-art methods on our the datasets. I
 </tbody>
 </table>
 
+
 <table class="tg">
 <thead>
   <tr>
@@ -209,6 +207,8 @@ We have done some experiments of state-of-the-art methods on our the datasets. I
   </tr>
 </tbody>
 </table>
+
+
 <!--
 <a name="tab-download"></a>
 <style type="text/css">
