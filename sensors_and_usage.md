@@ -3,6 +3,8 @@ sort: 1
 ---
 # Sensors & Usage
 
+
+<!--
 ## Overview
 
 The sensor setup is illustrated in [Fig. 1](#fig-harware). The corresponding ROS topics are reported in [Tab. 1](#tab-sensor-and-topic).
@@ -220,3 +222,5 @@ In a typical navigation system, <img src="https://latex.codecogs.com/png.latex?\
 <p style="text-align: center;">Fig 4. The content of a range message </p> <a name="fig-range-msg"></a>
 
 Note that the anchor positions are calculated by simple triangulation of anchor-to-anchor distance under the topic `/uwb_exorange_info` at the beginning of the data collection test. User can opt to estimating these on their own by subscribing to the topic `/uwb_exorange_info`.
+
+--!>
