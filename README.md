@@ -198,12 +198,12 @@ We have done some experiments of state-of-the-art methods on our the datasets. I
   <tr>
     <td class="tg-0pky">Audio Transformer</td>
     <td class="tg-0pky"> <a href="Paper under Review, not yet open"><span style="color:#905">Paper under Review, not yet open</span></a></td>
-    <td class="tg-0pky">Forked from https://github.com/sharathadavanne/seld-dcase2021</td>
+    <td class="tg-0pky">Reimplemented</td>
   </tr>
   <tr>
     <td class="tg-0pky">VorasNet</td>
     <td class="tg-0pky"> <a href="Paper under Review, not yet open"><span style="color:#905">Paper under Review, not yet open</span></a></td>
-    <td class="tg-0pky">Forked from None, Reimplemented</td>
+    <td class="tg-0pky">Reimplemented</td>
   </tr>
 </tbody>
 </table>
