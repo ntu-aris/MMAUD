@@ -186,4 +186,4 @@ right_rectified = cv2.remap(rightFrame, rightMapX, rightMapY, cv2.INTER_LINEAR, 
 ## Verification of stereo calibration (working in progress)
 
 ## Projecting pointclouds into camera image (working in progress)
---!>
+-->
