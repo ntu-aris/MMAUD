@@ -196,14 +196,14 @@ We have done some experiments of state-of-the-art methods on our the datasets. I
     <td class="tg-0pky">Forked from https://github.com/pjreddie/darknet</td>
   </tr>
   <tr>
-    <td class="tg-0pky">VorasNet</td>
-    <td class="tg-0pky"> <a href="Paper under Review, not yet open"><span style="color:#905">Paper under Review, not yet open</span></a></td>
-    <td class="tg-0pky">Forked from https://github.com/amdegroot/ssd.pytorch</td>
-  </tr>
-  <tr>
     <td class="tg-0pky">Audio Transformer</td>
     <td class="tg-0pky"> <a href="Paper under Review, not yet open"><span style="color:#905">Paper under Review, not yet open</span></a></td>
     <td class="tg-0pky">Forked from https://github.com/sharathadavanne/seld-dcase2021</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">VorasNet</td>
+    <td class="tg-0pky"> <a href="Paper under Review, not yet open"><span style="color:#905">Paper under Review, not yet open</span></a></td>
+    <td class="tg-0pky">Forked from None, Reimplemented</td>
   </tr>
 </tbody>
 </table>
