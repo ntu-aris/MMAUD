@@ -139,7 +139,7 @@ We have done some experiments of state-of-the-art methods on our the datasets. I
 <table class="tg">
 <thead>
   <tr>
-    <th class="tg-c3ow">Method</th>
+    <th class="tg-c3ow">2D Method</th>
     <th class="tg-c3ow">Repository</th>
     <th class="tg-c3ow">Credit</th>
   </tr>
@@ -155,7 +155,21 @@ We have done some experiments of state-of-the-art methods on our the datasets. I
     <td class="tg-0pky"> <a href="Paper under Review, not yet open"><span style="color:#905">Paper under Review, not yet open</span></a></td>
     <td class="tg-0pky">Forked from https://github.com/Megvii-BaseDetection/YOLOX</td>
   </tr>
-    
+  <tr>
+    <td class="tg-0pky">CenterNet</td>
+    <td class="tg-0pky"> <a href="Paper under Review, not yet open"><span style="color:#905">Paper under Review, not yet open</span></a></td>
+    <td class="tg-0pky">Forked from https://github.com/xingyizhou/CenterNet</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">SSD</td>
+    <td class="tg-0pky"> <a href="Paper under Review, not yet open"><span style="color:#905">Paper under Review, not yet open</span></a></td>
+    <td class="tg-0pky">Forked from https://github.com/amdegroot/ssd.pytorch</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">M2Det</td>
+    <td class="tg-0pky"> <a href="Paper under Review, not yet open"><span style="color:#905">Paper under Review, not yet open</span></a></td>
+    <td class="tg-0pky">Forked from https://github.com/VDIGPKU/M2Det</td>
+  </tr>
 </tbody>
 </table>
 
