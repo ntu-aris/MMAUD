@@ -66,8 +66,6 @@ Note: All rosbag data has been compressed using 'rosbag compress' to reduce its 
 .tg .tg-v8dz{border-color:inherit;font-size:18px;text-align:left;vertical-align:top}
 .tg .tg-9m02{border-color:inherit;color:#00E;font-size:18px;text-align:center;text-decoration:underline;vertical-align:top}
 </style>
-
-#Roof top sequences
 <table class="tg">
 <thead>
   <tr>
