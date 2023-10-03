@@ -66,6 +66,8 @@ Note: All rosbag data has been compressed using 'rosbag compress' to reduce its 
 .tg .tg-v8dz{border-color:inherit;font-size:18px;text-align:left;vertical-align:top}
 .tg .tg-9m02{border-color:inherit;color:#00E;font-size:18px;text-align:center;text-decoration:underline;vertical-align:top}
 </style>
+
+#Roof top sequences
 <table class="tg">
 <thead>
   <tr>
@@ -80,7 +82,7 @@ Note: All rosbag data has been compressed using 'rosbag compress' to reduce its 
 </thead>
 <tbody>
   <tr>
-    <td class="tg-v8dz">DJi Mavic2</td>
+    <td class="tg-v8dz">DJI Mavic2</td>
     <td class="tg-6ibf"><a href="https://entuedu-my.sharepoint.com/:u:/g/personal/shyuan_staff_main_ntu_edu_sg/ETLBFOa_MtdKqFPZ9IpGrAoBoh3NPMYVYJFXtlAqC3LfUw?e=N0Dihz" target="_blank" rel="noopener noreferrer">.bag</a></td>
     <td class="tg-9m02"><a href=" " target="_blank" rel="noopener noreferrer">.zip</a></td>
     <td class="tg-6ibf"><a href="https://entuedu-my.sharepoint.com/:u:/g/personal/shyuan_staff_main_ntu_edu_sg/EW4eZm1eEm9FndMN8hxQyesBNdQny6iV_n86Jtwcysi7Lw?e=s8csWh" target="_blank" rel="noopener noreferrer">.bag</a></td>
@@ -89,7 +91,7 @@ Note: All rosbag data has been compressed using 'rosbag compress' to reduce its 
     <td class="tg-v8dz">Open for Review </td>
   </tr>
   <tr>
-    <td class="tg-v8dz">DJi Mavic3</td>
+    <td class="tg-v8dz">DJI Mavic3</td>
     <td class="tg-9m02"><a href=" " target="_blank" rel="noopener noreferrer">.bag</a></td>
     <td class="tg-9m02"><a href=" " target="_blank" rel="noopener noreferrer">.zip</a></td>
     <td class="tg-6ibf"><a href="https://entuedu-my.sharepoint.com/:u:/g/personal/shyuan_staff_main_ntu_edu_sg/Eaol9EuQTZ5BmYffvBSo3kIB0DwKDcYstGvwg-Qrtnts4A?e=ZaJpsa" target="_blank" rel="noopener noreferrer">.bag</a></td>
