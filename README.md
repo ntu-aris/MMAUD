@@ -496,9 +496,8 @@ The datasets were used in the following papers. Please checkout these works if y
 
 # CAD drawing for dataset expansion
 
-[OpenAI]([https://openai.com](https://github.com/ntu-aris/MMAUD/blob/gh-pages/drawing.rar))
 
-
+[CAD drawing](https://github.com/ntu-aris/MMAUD/blob/gh-pages/drawing.rar)
 
 
 # Notes:
