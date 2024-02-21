@@ -499,6 +499,11 @@ The datasets were used in the following papers. Please checkout these works if y
 
 [CAD drawing](https://github.com/ntu-aris/MMAUD/blob/gh-pages/drawing.rar)
 
+Since there are multiple ethernet devices. It is recommended to set 2 livox lidar and MMwave radar to be at 192.168.10.xx , 192.168.11.xx , and 192.168.12.xx.
+
+The microphone and camera can be obtained from Taobao. Whereas other LIDAR and RADAR need to find your local distributor to get it. 
+
+If you have any issues in recreating this rig, feel free to drop an issue in this dataset repo
 
 # Notes:
 For more information on the sensors and how to use the dataset, please checkout the other sections.
