@@ -481,7 +481,7 @@ We have done some experiments of state-of-the-art methods on our the datasets. I
 </tbody>
 </table>
 -->
-# Related works
+<!--# Related works-->
 
 
 <!--
@@ -492,6 +492,13 @@ The datasets were used in the following papers. Please checkout these works if y
 * [MILIOM: Tightly Coupled Multi-Input Lidar-Inertia Odometry and Mapping](https://ieeexplore.ieee.org/document/9431754) (RAL 2021)
 * [LIRO: Tightly Coupled Lidar-Inertia-Ranging Odometry](https://arxiv.org/abs/2010.13072) (ICRA 2021)
 -->
+
+
+# CAD drawing for dataset expansion
+
+[OpenAI]([https://openai.com](https://github.com/ntu-aris/MMAUD/blob/gh-pages/drawing.rar))
+
+
 
 
 # Notes:
