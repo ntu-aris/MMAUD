@@ -15,12 +15,7 @@ This site presents the datasets collected from our research platform, featuring 
 
 # Citation
 If you use some resource from this data suite, please cite it as
-@article{yuan2024mmaud,
-  title={MMAUD: A Comprehensive Multi-Modal Anti-UAV Dataset for Modern Miniature Drone Threats},
-  author={Yuan, Shenghai and Yang, Yizhuo and Nguyen, Thien Hoang and Nguyen, Thien-Minh and Yang, Jianfei and Liu, Fen and Li, Jianping and Wang, Han and Xie, Lihua},
-  journal={arXiv preprint arXiv:2402.03706},
-  year={2024}
-}
+
 ```
 @article{nguyen2022ntu,
   title     = {MMAUD: A Comprehensive Multi-Modal Anti-UAV Dataset for Modern Miniature Drone Threats},
@@ -29,6 +24,7 @@ If you use some resource from this data suite, please cite it as
   year      = {2024},
   publisher = {IEEE}
 }
+```
 
 # Downloads
 <!--
