@@ -13,35 +13,23 @@ This site presents the datasets collected from our research platform, featuring 
 * One mmWave Radar
 * Four Audio Array Nodes 
 
-
-<!--
-The comprehensive sensor suite resembles that of an autonomous driving car, but features distinct and challenging characteristics of aerial operations. The flight tests are conducted in a variety of both indoor and outdoor conditions.
-
 # Citation
 If you use some resource from this data suite, please cite it as
-
-```
-@article{nguyen2022ntu,
-  title     = {NTU VIRAL: A Visual-Inertial-Ranging-Lidar Dataset, From an Aerial Vehicle Viewpoint},
-  author    = {Nguyen, Thien-Minh and Yuan, Shenghai and Cao, Muqing and Lyu, Yang and Nguyen, Thien Hoang and Xie, Lihua},
-  journal   = {The International Journal of Robotics Research},
-  volume    = {41},
-  number    = {3},
-  pages     = {270--280},
-  year      = {2022},
-  publisher = {SAGE Publications Sage UK: London, England}
+@article{yuan2024mmaud,
+  title={MMAUD: A Comprehensive Multi-Modal Anti-UAV Dataset for Modern Miniature Drone Threats},
+  author={Yuan, Shenghai and Yang, Yizhuo and Nguyen, Thien Hoang and Nguyen, Thien-Minh and Yang, Jianfei and Liu, Fen and Li, Jianping and Wang, Han and Xie, Lihua},
+  journal={arXiv preprint arXiv:2402.03706},
+  year={2024}
 }
 ```
-[[Journal](https://journals.sagepub.com/doi/full/10.1177/02783649211052312)][[Preprint](https://github.com/ntu-aris/ntu_viral_dataset/blob/gh-pages/docs/NTU_VIRAL_Dataset_Submission.pdf)]
+@article{nguyen2022ntu,
+  title     = {MMAUD: A Comprehensive Multi-Modal Anti-UAV Dataset for Modern Miniature Drone Threats},
+  author    = {Yuan, Shenghai and Yang, Yizhuo and Nguyen, Thien Hoang and Nguyen, Thien-Minh and Yang, Jianfei and Liu, Fen and Li, Jianping and Wang, Han and Xie, Lihua},
+  booktitle = {2024 IEEE International Conference on Robotics and Automation (ICRA)}, 
+  year      = {2024},
+  publisher = {IEEE}
+}
 
-# Updates
-
-**05/02/2023**: Update works using the datasets
-
-**26/09/2022**: Extra sequences (rtp_01, rtp_02, rtp_03, tnp_01, tnp_02, tnp_03, spms_01, spms_02, spms_03) in more challenging scenarios are added.
-
-**12/07/2022**: The ouster pointcloud and IMU messages are found to jitter due to synchronization issues. A script to regularize the ouster pointcloud and imu topics can be downloaded [here](https://github.com/ntu-aris/ntu_viral_dataset/blob/gh-pages/utils/restamp.py).
--->
 # Downloads
 <!--
 Note: The files below are hosted on [NTU Data Repository](https://researchdata.ntu.edu.sg/dataset.xhtml?persistentId=doi:10.21979/N9/X39LEK).
@@ -497,7 +485,7 @@ The datasets were used in the following papers. Please checkout these works if y
 # CAD drawing for dataset expansion
 
 
-[CAD drawing](https://github.com/ntu-aris/MMAUD/blob/gh-pages/drawing.rar)
+The [CAD drawing](https://github.com/ntu-aris/MMAUD/blob/gh-pages/drawing.rar) can be found here.
 
 Since there are multiple ethernet devices. It is recommended to set 2 livox lidar and MMwave radar to be at 192.168.10.xx , 192.168.11.xx , and 192.168.12.xx.
 
