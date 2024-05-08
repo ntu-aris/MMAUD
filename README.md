@@ -118,7 +118,7 @@ Note: All rosbag data has been compressed using 'rosbag compress' to reduce its 
     <td class="tg-6ibf"><a href=" " target="_blank" rel="noopener noreferrer">.bag</a></td>
     <td class="tg-6ibf">?? GB</td>
     <td class="tg-6ibf">?? s</td>
-    <td class="tg-v8dz">MMAUD V2 carpark hard</td>
+    <td class="tg-v8dz">MMAUD V2 Carpark Hard</td>
   </tr>
   <tr>
     <td class="tg-v8dz">DJI Phantom4</td>
@@ -127,7 +127,7 @@ Note: All rosbag data has been compressed using 'rosbag compress' to reduce its 
     <td class="tg-6ibf"><a href=" " target="_blank" rel="noopener noreferrer">.bag</a></td>
     <td class="tg-6ibf">?? GB</td>
     <td class="tg-6ibf">?? s</td>
-    <td class="tg-v8dz">MMAUD V2 carpark hard</td>
+    <td class="tg-v8dz">MMAUD V2 Carpark Hard</td>
   </tr>
   <tr>
     <td class="tg-v8dz">DJI Avata</td>
@@ -136,7 +136,7 @@ Note: All rosbag data has been compressed using 'rosbag compress' to reduce its 
     <td class="tg-6ibf"><a href=" " target="_blank" rel="noopener noreferrer">.bag</a></td>
     <td class="tg-6ibf">?? GB</td>
     <td class="tg-6ibf">?? s</td>
-    <td class="tg-v8dz">MMAUD V2 carpark hard</td>
+    <td class="tg-v8dz">MMAUD V2 Carpark Hard</td>
   </tr>
   <tr>
     <td class="tg-v8dz">DJI M300</td>
@@ -145,7 +145,7 @@ Note: All rosbag data has been compressed using 'rosbag compress' to reduce its 
     <td class="tg-6ibf"><a href=" " target="_blank" rel="noopener noreferrer">.bag</a></td>
     <td class="tg-6ibf">?? GB</td>
     <td class="tg-6ibf">?? s</td>
-    <td class="tg-v8dz">MMAUD V2 carpark hard</td>
+    <td class="tg-v8dz">MMAUD V2 Carpark Hard</td>
   </tr>
 
 
@@ -156,7 +156,7 @@ Note: All rosbag data has been compressed using 'rosbag compress' to reduce its 
     <td class="tg-6ibf"><a href=" " target="_blank" rel="noopener noreferrer">.bag</a></td>
     <td class="tg-6ibf">?? GB</td>
     <td class="tg-6ibf">?? s</td>
-    <td class="tg-v8dz">MMAUD V3 carpark hard</td>
+    <td class="tg-v8dz">MMAUD V3 Carpark Moderate</td>
   </tr>
   <tr>
     <td class="tg-v8dz">DJI Phantom4</td>
@@ -165,7 +165,7 @@ Note: All rosbag data has been compressed using 'rosbag compress' to reduce its 
     <td class="tg-6ibf"><a href=" " target="_blank" rel="noopener noreferrer">.bag</a></td>
     <td class="tg-6ibf">?? GB</td>
     <td class="tg-6ibf">?? s</td>
-    <td class="tg-v8dz">MMAUD V3 carpark hard</td>
+    <td class="tg-v8dz">MMAUD V3 Carpark Moderate</td>
   </tr>
   <tr>
     <td class="tg-v8dz">DJI Avata</td>
@@ -174,7 +174,7 @@ Note: All rosbag data has been compressed using 'rosbag compress' to reduce its 
     <td class="tg-6ibf"><a href=" " target="_blank" rel="noopener noreferrer">.bag</a></td>
     <td class="tg-6ibf">?? GB</td>
     <td class="tg-6ibf">?? s</td>
-    <td class="tg-v8dz">MMAUD V3 carpark hard</td>
+    <td class="tg-v8dz">MMAUD V3 Carpark Moderate</td>
   </tr>
   <tr>
     <td class="tg-v8dz">DJI M300</td>
@@ -183,7 +183,7 @@ Note: All rosbag data has been compressed using 'rosbag compress' to reduce its 
     <td class="tg-6ibf"><a href=" " target="_blank" rel="noopener noreferrer">.bag</a></td>
     <td class="tg-6ibf">?? GB</td>
     <td class="tg-6ibf">?? s</td>
-    <td class="tg-v8dz">MMAUD V3 carpark hard</td>
+    <td class="tg-v8dz">MMAUD V3 Carpark Moderate</td>
   </tr>
     
 </tbody>
