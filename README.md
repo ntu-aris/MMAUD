@@ -70,7 +70,7 @@ Note: All rosbag data has been compressed using 'rosbag compress' to reduce its 
     <td class="tg-6ibf"><a href="https://entuedu-my.sharepoint.com/:u:/g/personal/shyuan_staff_main_ntu_edu_sg/EW4eZm1eEm9FndMN8hxQyesBNdQny6iV_n86Jtwcysi7Lw?e=s8csWh" target="_blank" rel="noopener noreferrer">.bag</a></td>
     <td class="tg-6ibf">11.1 GB</td>
     <td class="tg-6ibf">198s</td>
-    <td class="tg-v8dz">MMAUD V1 Rooftop Sequences Simple </td>
+    <td class="tg-v8dz">MMAUD V1 Rooftop Simple </td>
   </tr>
   <tr>
     <td class="tg-v8dz">DJI Mavic3</td>
@@ -79,7 +79,7 @@ Note: All rosbag data has been compressed using 'rosbag compress' to reduce its 
     <td class="tg-6ibf"><a href="https://entuedu-my.sharepoint.com/:u:/g/personal/shyuan_staff_main_ntu_edu_sg/Eaol9EuQTZ5BmYffvBSo3kIB0DwKDcYstGvwg-Qrtnts4A?e=ZaJpsa" target="_blank" rel="noopener noreferrer">.bag</a></td>
     <td class="tg-6ibf">7.0 GB</td>
     <td class="tg-6ibf">321.1 s</td>
-    <td class="tg-v8dz">MMAUD V1 Rooftop Sequences Simple</td>
+    <td class="tg-v8dz">MMAUD V1 Rooftop Simple</td>
   </tr>
   <tr>
     <td class="tg-v8dz">DJI Phantom4</td>
@@ -88,7 +88,7 @@ Note: All rosbag data has been compressed using 'rosbag compress' to reduce its 
     <td class="tg-6ibf"><a href="https://entuedu-my.sharepoint.com/:u:/g/personal/shyuan_staff_main_ntu_edu_sg/EYlHSi2RmehBoPYDXiKspL0BsYx0IDXFtmG_UcFRl_AKBQ?e=B7KLP3" target="_blank" rel="noopener noreferrer">.bag</a></td>
     <td class="tg-6ibf">4.3 GB</td>
     <td class="tg-6ibf">181.4 s</td>
-    <td class="tg-v8dz">MMAUD V1 Rooftop Sequences Simple</td>
+    <td class="tg-v8dz">MMAUD V1 Rooftop Simple</td>
   </tr>
   <tr>
     <td class="tg-v8dz">DJI Avata</td>
@@ -97,7 +97,7 @@ Note: All rosbag data has been compressed using 'rosbag compress' to reduce its 
     <td class="tg-6ibf"><a href="https://entuedu-my.sharepoint.com/:u:/g/personal/shyuan_staff_main_ntu_edu_sg/EYoZq-lAmvVMgncDhDX4MDIBy6_mqqobYE1WW8xQ7EhfxQ?e=QJqwJc" target="_blank" rel="noopener noreferrer">.bag</a></td>
     <td class="tg-6ibf">8.6 GB</td>
     <td class="tg-6ibf">396.3 s</td>
-    <td class="tg-v8dz">MMAUD V1 Rooftop Sequences Simple</td>
+    <td class="tg-v8dz">MMAUD V1 Rooftop Simple</td>
   </tr>
   <tr>
     <td class="tg-v8dz">DJI M300</td>
@@ -106,8 +106,86 @@ Note: All rosbag data has been compressed using 'rosbag compress' to reduce its 
     <td class="tg-6ibf"><a href="https://entuedu-my.sharepoint.com/:u:/g/personal/shyuan_staff_main_ntu_edu_sg/ERDR8BNyj0hBrmsCIg8rP8wBnmz52qq4WTqjkCc2dnUQAw?e=KkXYhl" target="_blank" rel="noopener noreferrer">.bag</a></td>
     <td class="tg-6ibf">9.4 GB</td>
     <td class="tg-6ibf">428.7 s</td>
-    <td class="tg-v8dz">MMAUD V1 Rooftop Sequences Simple</td>
+    <td class="tg-v8dz">MMAUD V1 Rooftop Simple</td>
   </tr>
+
+
+
+  <tr>
+    <td class="tg-v8dz">DJI Mavic3</td>
+    <td class="tg-9m02"><a href=" " target="_blank" rel="noopener noreferrer">.bag</a></td>
+    <td class="tg-9m02"><a href=" " target="_blank" rel="noopener noreferrer">.zip</a></td>
+    <td class="tg-6ibf"><a href=" " target="_blank" rel="noopener noreferrer">.bag</a></td>
+    <td class="tg-6ibf">?? GB</td>
+    <td class="tg-6ibf">?? s</td>
+    <td class="tg-v8dz">MMAUD V2 carpark hard</td>
+  </tr>
+  <tr>
+    <td class="tg-v8dz">DJI Phantom4</td>
+    <td class="tg-9m02"><a href=" " target="_blank" rel="noopener noreferrer">.bag</a></td>
+    <td class="tg-9m02"><a href=" " target="_blank" rel="noopener noreferrer">.zip</a></td>
+    <td class="tg-6ibf"><a href=" " target="_blank" rel="noopener noreferrer">.bag</a></td>
+    <td class="tg-6ibf">?? GB</td>
+    <td class="tg-6ibf">?? s</td>
+    <td class="tg-v8dz">MMAUD V2 carpark hard</td>
+  </tr>
+  <tr>
+    <td class="tg-v8dz">DJI Avata</td>
+    <td class="tg-9m02"><a href=" " target="_blank" rel="noopener noreferrer">.bag</a></td>
+    <td class="tg-9m02"><a href=" " target="_blank" rel="noopener noreferrer">.zip</a></td>
+    <td class="tg-6ibf"><a href=" " target="_blank" rel="noopener noreferrer">.bag</a></td>
+    <td class="tg-6ibf">?? GB</td>
+    <td class="tg-6ibf">?? s</td>
+    <td class="tg-v8dz">MMAUD V2 carpark hard</td>
+  </tr>
+  <tr>
+    <td class="tg-v8dz">DJI M300</td>
+    <td class="tg-9m02"><a href=" " target="_blank" rel="noopener noreferrer">.bag</a></td>
+    <td class="tg-9m02"><a href=" " target="_blank" rel="noopener noreferrer">.zip</a></td>
+    <td class="tg-6ibf"><a href=" " target="_blank" rel="noopener noreferrer">.bag</a></td>
+    <td class="tg-6ibf">?? GB</td>
+    <td class="tg-6ibf">?? s</td>
+    <td class="tg-v8dz">MMAUD V2 carpark hard</td>
+  </tr>
+
+
+      <tr>
+    <td class="tg-v8dz">DJI Mavic3</td>
+    <td class="tg-9m02"><a href=" " target="_blank" rel="noopener noreferrer">.bag</a></td>
+    <td class="tg-9m02"><a href=" " target="_blank" rel="noopener noreferrer">.zip</a></td>
+    <td class="tg-6ibf"><a href=" " target="_blank" rel="noopener noreferrer">.bag</a></td>
+    <td class="tg-6ibf">?? GB</td>
+    <td class="tg-6ibf">?? s</td>
+    <td class="tg-v8dz">MMAUD V3 carpark hard</td>
+  </tr>
+  <tr>
+    <td class="tg-v8dz">DJI Phantom4</td>
+    <td class="tg-9m02"><a href=" " target="_blank" rel="noopener noreferrer">.bag</a></td>
+    <td class="tg-9m02"><a href=" " target="_blank" rel="noopener noreferrer">.zip</a></td>
+    <td class="tg-6ibf"><a href=" " target="_blank" rel="noopener noreferrer">.bag</a></td>
+    <td class="tg-6ibf">?? GB</td>
+    <td class="tg-6ibf">?? s</td>
+    <td class="tg-v8dz">MMAUD V3 carpark hard</td>
+  </tr>
+  <tr>
+    <td class="tg-v8dz">DJI Avata</td>
+    <td class="tg-9m02"><a href=" " target="_blank" rel="noopener noreferrer">.bag</a></td>
+    <td class="tg-9m02"><a href=" " target="_blank" rel="noopener noreferrer">.zip</a></td>
+    <td class="tg-6ibf"><a href=" " target="_blank" rel="noopener noreferrer">.bag</a></td>
+    <td class="tg-6ibf">?? GB</td>
+    <td class="tg-6ibf">?? s</td>
+    <td class="tg-v8dz">MMAUD V3 carpark hard</td>
+  </tr>
+  <tr>
+    <td class="tg-v8dz">DJI M300</td>
+    <td class="tg-9m02"><a href=" " target="_blank" rel="noopener noreferrer">.bag</a></td>
+    <td class="tg-9m02"><a href=" " target="_blank" rel="noopener noreferrer">.zip</a></td>
+    <td class="tg-6ibf"><a href=" " target="_blank" rel="noopener noreferrer">.bag</a></td>
+    <td class="tg-6ibf">?? GB</td>
+    <td class="tg-6ibf">?? s</td>
+    <td class="tg-v8dz">MMAUD V3 carpark hard</td>
+  </tr>
+    
 </tbody>
 </table>
 
