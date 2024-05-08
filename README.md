@@ -65,7 +65,7 @@ Note: All rosbag data has been compressed using 'rosbag compress' to reduce its 
 <tbody>
   <tr>
     <td class="tg-v8dz">DJI Mavic2</td>
-    <td class="tg-6ibf"><a href="https://entuedu-my.sharepoint.com/:u:/g/personal/shyuan_staff_main_ntu_edu_sg/ETLBFOa_MtdKqFPZ9IpGrAoBoh3NPMYVYJFXtlAqC3LfUw?e=N0Dihz" target="_blank" rel="noopener noreferrer">.bag</a></td>
+    <td class="tg-6ibf"><a href="https://entuedu-my.sharepoint.com/:u:/r/personal/shyuan_staff_main_ntu_edu_sg/Documents/MMAUD_dataset/rosbag_format/raw_bag_compressed/Mavic2.bag?csf=1&web=1&e=UYvHAb" target="_blank" rel="noopener noreferrer">.bag</a></td>
     <td class="tg-9m02"><a href=" " target="_blank" rel="noopener noreferrer">.zip</a></td>
     <td class="tg-6ibf"><a href="https://entuedu-my.sharepoint.com/:u:/g/personal/shyuan_staff_main_ntu_edu_sg/EW4eZm1eEm9FndMN8hxQyesBNdQny6iV_n86Jtwcysi7Lw?e=s8csWh" target="_blank" rel="noopener noreferrer">.bag</a></td>
     <td class="tg-6ibf">11.1 GB</td>
@@ -74,7 +74,7 @@ Note: All rosbag data has been compressed using 'rosbag compress' to reduce its 
   </tr>
   <tr>
     <td class="tg-v8dz">DJI Mavic3</td>
-    <td class="tg-9m02"><a href=" " target="_blank" rel="noopener noreferrer">.bag</a></td>
+    <td class="tg-9m02"><a href="https://entuedu-my.sharepoint.com/:u:/r/personal/shyuan_staff_main_ntu_edu_sg/Documents/MMAUD_dataset/rosbag_format/raw_bag_compressed/Mavic3.bag?csf=1&web=1&e=vkglmj" target="_blank" rel="noopener noreferrer">.bag</a></td>
     <td class="tg-9m02"><a href=" " target="_blank" rel="noopener noreferrer">.zip</a></td>
     <td class="tg-6ibf"><a href="https://entuedu-my.sharepoint.com/:u:/g/personal/shyuan_staff_main_ntu_edu_sg/Eaol9EuQTZ5BmYffvBSo3kIB0DwKDcYstGvwg-Qrtnts4A?e=ZaJpsa" target="_blank" rel="noopener noreferrer">.bag</a></td>
     <td class="tg-6ibf">7.0 GB</td>
@@ -83,7 +83,7 @@ Note: All rosbag data has been compressed using 'rosbag compress' to reduce its 
   </tr>
   <tr>
     <td class="tg-v8dz">DJI Phantom4</td>
-    <td class="tg-9m02"><a href=" " target="_blank" rel="noopener noreferrer">.bag</a></td>
+    <td class="tg-9m02"><a href="https://entuedu-my.sharepoint.com/:u:/r/personal/shyuan_staff_main_ntu_edu_sg/Documents/MMAUD_dataset/rosbag_format/raw_bag_compressed/Pham4.bag?csf=1&web=1&e=SRibsm" target="_blank" rel="noopener noreferrer">.bag</a></td>
     <td class="tg-9m02"><a href=" " target="_blank" rel="noopener noreferrer">.zip</a></td>
     <td class="tg-6ibf"><a href="https://entuedu-my.sharepoint.com/:u:/g/personal/shyuan_staff_main_ntu_edu_sg/EYlHSi2RmehBoPYDXiKspL0BsYx0IDXFtmG_UcFRl_AKBQ?e=B7KLP3" target="_blank" rel="noopener noreferrer">.bag</a></td>
     <td class="tg-6ibf">4.3 GB</td>
@@ -92,7 +92,7 @@ Note: All rosbag data has been compressed using 'rosbag compress' to reduce its 
   </tr>
   <tr>
     <td class="tg-v8dz">DJI Avata</td>
-    <td class="tg-9m02"><a href=" " target="_blank" rel="noopener noreferrer">.bag</a></td>
+    <td class="tg-9m02"><a href="https://entuedu-my.sharepoint.com/:u:/r/personal/shyuan_staff_main_ntu_edu_sg/Documents/MMAUD_dataset/rosbag_format/raw_bag_compressed/Avata.bag?csf=1&web=1&e=x8HQJN" target="_blank" rel="noopener noreferrer">.bag</a></td>
     <td class="tg-9m02"><a href=" " target="_blank" rel="noopener noreferrer">.zip</a></td>
     <td class="tg-6ibf"><a href="https://entuedu-my.sharepoint.com/:u:/g/personal/shyuan_staff_main_ntu_edu_sg/EYoZq-lAmvVMgncDhDX4MDIBy6_mqqobYE1WW8xQ7EhfxQ?e=QJqwJc" target="_blank" rel="noopener noreferrer">.bag</a></td>
     <td class="tg-6ibf">8.6 GB</td>
@@ -101,7 +101,7 @@ Note: All rosbag data has been compressed using 'rosbag compress' to reduce its 
   </tr>
   <tr>
     <td class="tg-v8dz">DJI M300</td>
-    <td class="tg-9m02"><a href=" " target="_blank" rel="noopener noreferrer">.bag</a></td>
+    <td class="tg-9m02"><a href="https://entuedu-my.sharepoint.com/:u:/r/personal/shyuan_staff_main_ntu_edu_sg/Documents/MMAUD_dataset/rosbag_format/raw_bag_compressed/M300.bag?csf=1&web=1&e=LT2eKg" target="_blank" rel="noopener noreferrer">.bag</a></td>
     <td class="tg-9m02"><a href=" " target="_blank" rel="noopener noreferrer">.zip</a></td>
     <td class="tg-6ibf"><a href="https://entuedu-my.sharepoint.com/:u:/g/personal/shyuan_staff_main_ntu_edu_sg/ERDR8BNyj0hBrmsCIg8rP8wBnmz52qq4WTqjkCc2dnUQAw?e=KkXYhl" target="_blank" rel="noopener noreferrer">.bag</a></td>
     <td class="tg-6ibf">9.4 GB</td>
