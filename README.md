@@ -29,12 +29,12 @@ If you use some resource from this data suite, please cite it as
 # Downloads
 <!--
 Note: The files below are hosted on [NTU Data Repository](https://researchdata.ntu.edu.sg/dataset.xhtml?persistentId=doi:10.21979/N9/X39LEK).
-If you experience interuption from the NTU Data Reposity, please try downloading the files from this [Onedrive folder](https://entuedu-my.sharepoint.com/:f:/g/personal/shyuan_staff_main_ntu_edu_sg/EvyxXbi1l5tHonBWIQxueBoByr1-E-w7fgRyHNTsCmwFcg).
+If you experience interruption from the NTU Data Repository, please try downloading the files from this [Onedrive folder](https://entuedu-my.sharepoint.com/:f:/g/personal/shyuan_staff_main_ntu_edu_sg/EvyxXbi1l5tHonBWIQxueBoByr1-E-w7fgRyHNTsCmwFcg).
 
-Groundtruth is included in the bag. Do check out [this example](https://github.com/brytsknguyen/VINS-Mono/blob/392c8c5732d31445b266b9ca2e2f38a5a4d82d55/vins_estimator/launch/run_one_bag_ntuviral.sh#L68) on how to extract the data into the csv format.
+Ground truth is included in the separate bag. Do check out [this example](https://github.com/brytsknguyen/VINS-Mono/blob/392c8c5732d31445b266b9ca2e2f38a5a4d82d55/vins_estimator/launch/run_one_bag_ntuviral.sh#L68) on how to extract the data into the csv format.
 -->
 
-The files below are hosted on OneDrive. If you having problem downloading from onedrive, do raise an issue. 
+The files below are hosted on OneDrive. If you are having a problem downloading from one drive, do raise an issue. 
  
 Note: All rosbag data has been compressed using 'rosbag compress' to reduce its size by a factor of 3. If you directly run 'rosbag play,' the playback frequency will be reduced. To restore the bag to its full rate, please use the 'rosbag decompress' command.
 
@@ -68,7 +68,7 @@ Note: All rosbag data has been compressed using 'rosbag compress' to reduce its 
     <td class="tg-6ibf"><a href="https://entuedu-my.sharepoint.com/:u:/r/personal/shyuan_staff_main_ntu_edu_sg/Documents/MMAUD_dataset/rosbag_format/raw_bag_compressed/Mavic2.bag?csf=1&web=1&e=UYvHAb" target="_blank" rel="noopener noreferrer">.bag</a></td>
     <td class="tg-9m02"><a href=" " target="_blank" rel="noopener noreferrer">.zip</a></td>
     <td class="tg-6ibf"><a href="https://entuedu-my.sharepoint.com/:u:/g/personal/shyuan_staff_main_ntu_edu_sg/EW4eZm1eEm9FndMN8hxQyesBNdQny6iV_n86Jtwcysi7Lw?e=s8csWh" target="_blank" rel="noopener noreferrer">.bag</a></td>
-    <td class="tg-6ibf">11.1 GB</td>
+    <td class="tg-6ibf">14.1 GB</td>
     <td class="tg-6ibf">198s</td>
     <td class="tg-v8dz">MMAUD V1 Rooftop Simple </td>
   </tr>
@@ -77,7 +77,7 @@ Note: All rosbag data has been compressed using 'rosbag compress' to reduce its 
     <td class="tg-9m02"><a href="https://entuedu-my.sharepoint.com/:u:/r/personal/shyuan_staff_main_ntu_edu_sg/Documents/MMAUD_dataset/rosbag_format/raw_bag_compressed/Mavic3.bag?csf=1&web=1&e=vkglmj" target="_blank" rel="noopener noreferrer">.bag</a></td>
     <td class="tg-9m02"><a href=" " target="_blank" rel="noopener noreferrer">.zip</a></td>
     <td class="tg-6ibf"><a href="https://entuedu-my.sharepoint.com/:u:/g/personal/shyuan_staff_main_ntu_edu_sg/Eaol9EuQTZ5BmYffvBSo3kIB0DwKDcYstGvwg-Qrtnts4A?e=ZaJpsa" target="_blank" rel="noopener noreferrer">.bag</a></td>
-    <td class="tg-6ibf">7.0 GB</td>
+    <td class="tg-6ibf">11.1 GB</td>
     <td class="tg-6ibf">321.1 s</td>
     <td class="tg-v8dz">MMAUD V1 Rooftop Simple</td>
   </tr>
@@ -86,7 +86,7 @@ Note: All rosbag data has been compressed using 'rosbag compress' to reduce its 
     <td class="tg-9m02"><a href="https://entuedu-my.sharepoint.com/:u:/r/personal/shyuan_staff_main_ntu_edu_sg/Documents/MMAUD_dataset/rosbag_format/raw_bag_compressed/Pham4.bag?csf=1&web=1&e=SRibsm" target="_blank" rel="noopener noreferrer">.bag</a></td>
     <td class="tg-9m02"><a href=" " target="_blank" rel="noopener noreferrer">.zip</a></td>
     <td class="tg-6ibf"><a href="https://entuedu-my.sharepoint.com/:u:/g/personal/shyuan_staff_main_ntu_edu_sg/EYlHSi2RmehBoPYDXiKspL0BsYx0IDXFtmG_UcFRl_AKBQ?e=B7KLP3" target="_blank" rel="noopener noreferrer">.bag</a></td>
-    <td class="tg-6ibf">4.3 GB</td>
+    <td class="tg-6ibf">13.2 GB</td>
     <td class="tg-6ibf">181.4 s</td>
     <td class="tg-v8dz">MMAUD V1 Rooftop Simple</td>
   </tr>
@@ -95,7 +95,7 @@ Note: All rosbag data has been compressed using 'rosbag compress' to reduce its 
     <td class="tg-9m02"><a href="https://entuedu-my.sharepoint.com/:u:/r/personal/shyuan_staff_main_ntu_edu_sg/Documents/MMAUD_dataset/rosbag_format/raw_bag_compressed/Avata.bag?csf=1&web=1&e=x8HQJN" target="_blank" rel="noopener noreferrer">.bag</a></td>
     <td class="tg-9m02"><a href=" " target="_blank" rel="noopener noreferrer">.zip</a></td>
     <td class="tg-6ibf"><a href="https://entuedu-my.sharepoint.com/:u:/g/personal/shyuan_staff_main_ntu_edu_sg/EYoZq-lAmvVMgncDhDX4MDIBy6_mqqobYE1WW8xQ7EhfxQ?e=QJqwJc" target="_blank" rel="noopener noreferrer">.bag</a></td>
-    <td class="tg-6ibf">8.6 GB</td>
+    <td class="tg-6ibf">19.7 GB</td>
     <td class="tg-6ibf">396.3 s</td>
     <td class="tg-v8dz">MMAUD V1 Rooftop Simple</td>
   </tr>
@@ -104,7 +104,7 @@ Note: All rosbag data has been compressed using 'rosbag compress' to reduce its 
     <td class="tg-9m02"><a href="https://entuedu-my.sharepoint.com/:u:/r/personal/shyuan_staff_main_ntu_edu_sg/Documents/MMAUD_dataset/rosbag_format/raw_bag_compressed/M300.bag?csf=1&web=1&e=LT2eKg" target="_blank" rel="noopener noreferrer">.bag</a></td>
     <td class="tg-9m02"><a href=" " target="_blank" rel="noopener noreferrer">.zip</a></td>
     <td class="tg-6ibf"><a href="https://entuedu-my.sharepoint.com/:u:/g/personal/shyuan_staff_main_ntu_edu_sg/ERDR8BNyj0hBrmsCIg8rP8wBnmz52qq4WTqjkCc2dnUQAw?e=KkXYhl" target="_blank" rel="noopener noreferrer">.bag</a></td>
-    <td class="tg-6ibf">9.4 GB</td>
+    <td class="tg-6ibf">14.4 GB</td>
     <td class="tg-6ibf">428.7 s</td>
     <td class="tg-v8dz">MMAUD V1 Rooftop Simple</td>
   </tr>
