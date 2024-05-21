@@ -83,7 +83,7 @@ Note: All rosbag data has been compressed using 'rosbag compress' to reduce its 
   </tr>
   <tr>
     <td class="tg-v8dz">DJI Phantom4</td>
-    <td class="tg-9m02"><a href="https://entuedu-my.sharepoint.com/:u:/r/personal/shyuan_staff_main_ntu_edu_sg/Documents/MMAUD_dataset/rosbag_format/raw_bag_compressed/Pham4.bag?csf=1&web=1&e=SRibsm" target="_blank" rel="noopener noreferrer">.bag</a></td>
+    <td class="tg-9m02"><a href="https://entuedu-my.sharepoint.com/:u:/g/personal/shyuan_staff_main_ntu_edu_sg/EUvtDQtIou5Otv4S1kFZ4ikBPCypxqpYSZ8onr5BCPpG8w?e=hlbBBz" target="_blank" rel="noopener noreferrer">.bag</a></td>
     <td class="tg-9m02"><a href=" " target="_blank" rel="noopener noreferrer">.zip</a></td>
     <td class="tg-6ibf"><a href="https://entuedu-my.sharepoint.com/:u:/g/personal/shyuan_staff_main_ntu_edu_sg/EYlHSi2RmehBoPYDXiKspL0BsYx0IDXFtmG_UcFRl_AKBQ?e=B7KLP3" target="_blank" rel="noopener noreferrer">.bag</a></td>
     <td class="tg-6ibf">13.2 GB</td>
@@ -92,7 +92,7 @@ Note: All rosbag data has been compressed using 'rosbag compress' to reduce its 
   </tr>
   <tr>
     <td class="tg-v8dz">DJI Avata</td>
-    <td class="tg-9m02"><a href="https://entuedu-my.sharepoint.com/:u:/r/personal/shyuan_staff_main_ntu_edu_sg/Documents/MMAUD_dataset/rosbag_format/raw_bag_compressed/Avata.bag?csf=1&web=1&e=x8HQJN" target="_blank" rel="noopener noreferrer">.bag</a></td>
+    <td class="tg-9m02"><a href="https://entuedu-my.sharepoint.com/:u:/g/personal/shyuan_staff_main_ntu_edu_sg/ETqBudcomxlMn_ClHROwLLAB_5XP5t_elNcU2B7siU-1RQ?e=bYrzOi" target="_blank" rel="noopener noreferrer">.bag</a></td>
     <td class="tg-9m02"><a href=" " target="_blank" rel="noopener noreferrer">.zip</a></td>
     <td class="tg-6ibf"><a href="https://entuedu-my.sharepoint.com/:u:/g/personal/shyuan_staff_main_ntu_edu_sg/EYoZq-lAmvVMgncDhDX4MDIBy6_mqqobYE1WW8xQ7EhfxQ?e=QJqwJc" target="_blank" rel="noopener noreferrer">.bag</a></td>
     <td class="tg-6ibf">19.7 GB</td>
@@ -101,7 +101,7 @@ Note: All rosbag data has been compressed using 'rosbag compress' to reduce its 
   </tr>
   <tr>
     <td class="tg-v8dz">DJI M300</td>
-    <td class="tg-9m02"><a href="https://entuedu-my.sharepoint.com/:u:/r/personal/shyuan_staff_main_ntu_edu_sg/Documents/MMAUD_dataset/rosbag_format/raw_bag_compressed/M300.bag?csf=1&web=1&e=LT2eKg" target="_blank" rel="noopener noreferrer">.bag</a></td>
+    <td class="tg-9m02"><a href="https://entuedu-my.sharepoint.com/:u:/g/personal/shyuan_staff_main_ntu_edu_sg/EeA7KMRCRNBNvbP50UsPmJ0B0PEGEk71L6FpHkQSKncabQ?e=U90Es9" target="_blank" rel="noopener noreferrer">.bag</a></td>
     <td class="tg-9m02"><a href=" " target="_blank" rel="noopener noreferrer">.zip</a></td>
     <td class="tg-6ibf"><a href="https://entuedu-my.sharepoint.com/:u:/g/personal/shyuan_staff_main_ntu_edu_sg/ERDR8BNyj0hBrmsCIg8rP8wBnmz52qq4WTqjkCc2dnUQAw?e=KkXYhl" target="_blank" rel="noopener noreferrer">.bag</a></td>
     <td class="tg-6ibf">14.4 GB</td>
