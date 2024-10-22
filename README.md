@@ -23,7 +23,8 @@ If you use some resource from this data suite, please cite it as
   title={MMAUD: A Comprehensive Multi-Modal Anti-UAV Dataset for Modern Miniature Drone Threats}, 
   year={2024},
   pages={2745-2751},
-  doi={10.1109/ICRA57147.2024.10610957}}
+  doi={10.1109/ICRA57147.2024.10610957}
+}
 ```
 
 # Downloads
