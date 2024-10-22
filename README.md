@@ -17,13 +17,13 @@ This site presents the datasets collected from our research platform, featuring 
 If you use some resource from this data suite, please cite it as
 
 ```
-@article{yuan2024MMAUD,
-  title     = {MMAUD: A Comprehensive Multi-Modal Anti-UAV Dataset for Modern Miniature Drone Threats},
-  author    = {Yuan, Shenghai and Yang, Yizhuo and Nguyen, Thien Hoang and Nguyen, Thien-Minh and Yang, Jianfei and Liu, Fen and Li, Jianping and Wang, Han and Xie, Lihua},
-  booktitle = {2024 IEEE International Conference on Robotics and Automation (ICRA)}, 
-  year      = {2024},
-  publisher = {IEEE}
-}
+@INPROCEEDINGS{yuan2024MMAUD,
+  author={Yuan, Shenghai and Yang, Yizhuo and Nguyen, Thien Hoang and Nguyen, Thien-Minh and Yang, Jianfei and Liu, Fen and Li, Jianping and Wang, Han and Xie, Lihua},
+  booktitle={2024 IEEE International Conference on Robotics and Automation (ICRA)}, 
+  title={MMAUD: A Comprehensive Multi-Modal Anti-UAV Dataset for Modern Miniature Drone Threats}, 
+  year={2024},
+  pages={2745-2751},
+  doi={10.1109/ICRA57147.2024.10610957}}
 ```
 
 # Downloads
