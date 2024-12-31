@@ -229,16 +229,6 @@ We have done some experiments of state-of-the-art methods on our the datasets. I
 </thead>
 <tbody>
   <tr>
-    <td class="tg-0pky">Audionet</td>
-    <td class="tg-0pky"> <a href="https://github.com/yizhuoyang/AV-FDTI/blob/main/nets/comparison/audionet.py"><span style="color:#905">Audionet</span></a></td>
-    <td class="tg-0pky">Original Contribution</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">AV-FDTI</td>
-    <td class="tg-0pky"> <a href="https://github.com/yizhuoyang/AV-FDTI/"><span style="color:#905">AV-FDTI</span></a></td>
-    <td class="tg-0pky">Original Contribution</td>
-  </tr>
-  <tr>
     <td class="tg-0pky">ResNet</td>
     <td class="tg-0pky"> <a href="https://github.com/yizhuoyang/AV-FDTI/blob/main/nets/comparison/resnet50_visual.py"><span style="color:#905">ResNet</span></a></td>
     <td class="tg-0pky">Reimplemented</td>
@@ -248,15 +238,26 @@ We have done some experiments of state-of-the-art methods on our the datasets. I
     <td class="tg-0pky"> <a href="https://github.com/yizhuoyang/AV-FDTI/blob/main/nets/comparison/darknet.py"><span style="color:#905">Darknet</span></a></td>
     <td class="tg-0pky">Reimplemented</td>
   </tr>
-  <tr>
-    <td class="tg-0pky">AV-PED</td>
-    <td class="tg-0pky"> <a href="https://github.com/yizhuoyang/AV-FDTI/blob/main/nets/comparison/avped.py"><span style="color:#905">AV-PED</span></a></td>
-    <td class="tg-0pky">Reimplemented</td>
-  </tr>
+
   <tr>
     <td class="tg-0pky">VorasNet</td>
     <td class="tg-0pky"> <a href="https://github.com/yizhuoyang/AV-FDTI/blob/main/nets/comparison/voranet.py"><span style="color:#905">DroneChase</span></a></td>
     <td class="tg-0pky">Reimplemented</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">AV-PED</td>
+    <td class="tg-0pky"> <a href="https://github.com/yizhuoyang/AV-FDTI/blob/main/nets/comparison/avped.py"><span style="color:#905">AV-PED</span></a></td>
+    <td class="tg-0pky">Original Contribution</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">Audionet</td>
+    <td class="tg-0pky"> <a href="https://github.com/yizhuoyang/AV-FDTI/blob/main/nets/comparison/audionet.py"><span style="color:#905">Audionet</span></a></td>
+    <td class="tg-0pky">Original Contribution</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">AV-FDTI</td>
+    <td class="tg-0pky"> <a href="https://github.com/yizhuoyang/AV-FDTI/"><span style="color:#905">AV-FDTI</span></a></td>
+    <td class="tg-0pky">Original Contribution</td>
   </tr>
 </tbody>
 </table>
