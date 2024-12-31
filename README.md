@@ -201,55 +201,7 @@ V2 and V3 were used for the CVPR UG2+ challenge, which is more challenging than 
 
 We have done some experiments of state-of-the-art methods on our the datasets. If you are seeking to do the same, please check out the following to get the work done quickly.
 
-
-
-
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-</style>
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-c3ow">2D Detection</th>
-    <th class="tg-c3ow">Repository</th>
-    <th class="tg-c3ow">Credit</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-0pky">YoloV5</td>
-    <td class="tg-0pky"> <a href="Paper under Review, not yet open"><span style="color:#905">Paper under Review, not yet open</span></a></td>
-    <td class="tg-0pky">Forked from https://github.com/ultralytics/yolov5</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">YoloX</td>
-    <td class="tg-0pky"> <a href="Paper under Review, not yet open"><span style="color:#905">Paper under Review, not yet open</span></a></td>
-    <td class="tg-0pky">Forked from https://github.com/Megvii-BaseDetection/YOLOX</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">CenterNet</td>
-    <td class="tg-0pky"> <a href="Paper under Review, not yet open"><span style="color:#905">Paper under Review, not yet open</span></a></td>
-    <td class="tg-0pky">Forked from https://github.com/xingyizhou/CenterNet</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">SSD</td>
-    <td class="tg-0pky"> <a href="Paper under Review, not yet open"><span style="color:#905">Paper under Review, not yet open</span></a></td>
-    <td class="tg-0pky">Forked from https://github.com/amdegroot/ssd.pytorch</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">M2Det</td>
-    <td class="tg-0pky"> <a href="Paper under Review, not yet open"><span style="color:#905">Paper under Review, not yet open</span></a></td>
-    <td class="tg-0pky">Forked from https://github.com/VDIGPKU/M2Det</td>
-  </tr>
-</tbody>
-</table>
-
+### Remark: The 2D detection baseline is considered too trivial to be provided separately; please refer to the 3D estimation branch and exclude the 2D part.
 
 <p align="center">
     <img src="images/2ddetection_result.png" alt=" 2D Detection Result Graph " width="50%"/>
@@ -279,22 +231,22 @@ We have done some experiments of state-of-the-art methods on our the datasets. I
   <tr>
     <td class="tg-0pky">Audionet</td>
     <td class="tg-0pky"> <a href="https://github.com/yizhuoyang/AV-FDTI/blob/main/nets/comparison/audionet.py"><span style="color:#905">Audionet</span></a></td>
-    <td class="tg-0pky">Forked from https://github.com/Lornatang/ResNet-PyTorch</td>
+    <td class="tg-0pky">Original Contribution</td>
   </tr>
   <tr>
     <td class="tg-0pky">AV-FDTI</td>
     <td class="tg-0pky"> <a href="https://github.com/yizhuoyang/AV-FDTI/"><span style="color:#905">AV-FDTI</span></a></td>
-    <td class="tg-0pky">Forked from https://github.com/Lornatang/ResNet-PyTorch</td>
+    <td class="tg-0pky">Original Contribution</td>
   </tr>
   <tr>
     <td class="tg-0pky">ResNet</td>
     <td class="tg-0pky"> <a href="https://github.com/yizhuoyang/AV-FDTI/blob/main/nets/comparison/resnet50_visual.py"><span style="color:#905">ResNet</span></a></td>
-    <td class="tg-0pky">Forked from https://github.com/Lornatang/ResNet-PyTorch</td>
+    <td class="tg-0pky">Reimplemented</td>
   </tr>
   <tr>
     <td class="tg-0pky">Darknet</td>
     <td class="tg-0pky"> <a href="https://github.com/yizhuoyang/AV-FDTI/blob/main/nets/comparison/darknet.py"><span style="color:#905">Darknet</span></a></td>
-    <td class="tg-0pky">Forked from https://github.com/pjreddie/darknet</td>
+    <td class="tg-0pky">Reimplemented</td>
   </tr>
   <tr>
     <td class="tg-0pky">AV-PED</td>
