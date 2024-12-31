@@ -224,7 +224,7 @@ We have done some experiments of state-of-the-art methods on our the datasets. I
   <tr>
     <th class="tg-c3ow">3D Pose Estimation</th>
     <th class="tg-c3ow">Repository</th>
-    <th class="tg-c3ow">Credit</th>
+    <th class="tg-c3ow">Remark</th>
   </tr>
 </thead>
 <tbody>
@@ -307,6 +307,8 @@ For resources and other works of our group please checkout our [github](https://
 
 If you have some inquiry, please raise an [issue](https://github.com/ntu-aris/MMAUD/issues) on github.
 
+# Thanks
+Each part of the code is obtained separately from a different source. Please help cite their corresponding works accordingly. 
 
 # Licence
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/) and is intended for non-commercial academic use.
