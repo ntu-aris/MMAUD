@@ -277,28 +277,33 @@ We have done some experiments of state-of-the-art methods on our the datasets. I
 </thead>
 <tbody>
   <tr>
-    <td class="tg-0pky">ResNet</td>
-    <td class="tg-0pky"> <a href="Paper under Review, not yet open"><span style="color:#905">Paper under Review, not yet open</span></a></td>
+    <td class="tg-0pky">Audionet</td>
+    <td class="tg-0pky"> <a href="https://github.com/yizhuoyang/AV-FDTI/blob/main/nets/comparison/audionet.py"><span style="color:#905">Audionet</span></a></td>
     <td class="tg-0pky">Forked from https://github.com/Lornatang/ResNet-PyTorch</td>
   </tr>
   <tr>
-    <td class="tg-0pky">VGG</td>
-    <td class="tg-0pky"> <a href="Paper under Review, not yet open"><span style="color:#905">Paper under Review, not yet open</span></a></td>
-    <td class="tg-0pky">Forked from https://github.com/Lornatang/VGG-PyTorch</td>
+    <td class="tg-0pky">AV-FDTI</td>
+    <td class="tg-0pky"> <a href="https://github.com/yizhuoyang/AV-FDTI/"><span style="color:#905">AV-FDTI</span></a></td>
+    <td class="tg-0pky">Forked from https://github.com/Lornatang/ResNet-PyTorch</td>
+  </tr>
+  <tr>
+    <td class="tg-0pky">ResNet</td>
+    <td class="tg-0pky"> <a href="https://github.com/yizhuoyang/AV-FDTI/blob/main/nets/comparison/resnet50_visual.py"><span style="color:#905">ResNet</span></a></td>
+    <td class="tg-0pky">Forked from https://github.com/Lornatang/ResNet-PyTorch</td>
   </tr>
   <tr>
     <td class="tg-0pky">Darknet</td>
-    <td class="tg-0pky"> <a href="Paper under Review, not yet open"><span style="color:#905">Paper under Review, not yet open</span></a></td>
+    <td class="tg-0pky"> <a href="https://github.com/yizhuoyang/AV-FDTI/blob/main/nets/comparison/darknet.py"><span style="color:#905">Darknet</span></a></td>
     <td class="tg-0pky">Forked from https://github.com/pjreddie/darknet</td>
   </tr>
   <tr>
-    <td class="tg-0pky">Audio Transformer</td>
-    <td class="tg-0pky"> <a href="Paper under Review, not yet open"><span style="color:#905">Paper under Review, not yet open</span></a></td>
+    <td class="tg-0pky">AV-PED</td>
+    <td class="tg-0pky"> <a href="https://github.com/yizhuoyang/AV-FDTI/blob/main/nets/comparison/avped.py"><span style="color:#905">AV-PED</span></a></td>
     <td class="tg-0pky">Reimplemented</td>
   </tr>
   <tr>
     <td class="tg-0pky">VorasNet</td>
-    <td class="tg-0pky"> <a href="https://github.com/yizhuoyang/AV-FDTI/blob/main/nets/comparison/voranet.py"><span style="color:#905">Paper under Review, not yet open</span></a></td>
+    <td class="tg-0pky"> <a href="https://github.com/yizhuoyang/AV-FDTI/blob/main/nets/comparison/voranet.py"><span style="color:#905">DroneChase</span></a></td>
     <td class="tg-0pky">Reimplemented</td>
   </tr>
 </tbody>
