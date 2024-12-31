@@ -201,7 +201,7 @@ V2 and V3 were used for the CVPR UG2+ challenge, which is more challenging than 
 
 We have done some experiments of state-of-the-art methods on our the datasets. If you are seeking to do the same, please check out the following to get the work done quickly.
 
-### Remark: The 2D detection baseline is considered too trivial to be provided separately; please refer to the 3D estimation branch and exclude the 2D part.
+### Remark: The 2D detection baseline is considered too trivial to be provided separately. Interested party can download the data here https://drive.google.com/drive/folders/1_LpPyIfETQS-k2vlSsbzI9pzyVzZScSx?usp=sharing. Then follow the official code of yolov5 to train the model: https://github.com/ultralytics/yolov5. For rest of other 2D detection pipelines, it should be similar.
 
 <p align="center">
     <img src="images/2ddetection_result.png" alt=" 2D Detection Result Graph " width="50%"/>
