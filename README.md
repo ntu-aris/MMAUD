@@ -231,58 +231,58 @@ We have done some experiments of state-of-the-art methods on our the datasets. I
   <tr>
     <td class="tg-0pky">ResNet</td>
     <td class="tg-0pky"> <a href="https://github.com/yizhuoyang/AV-FDTI/blob/main/nets/comparison/resnet50_visual.py"><span style="color:#905">ResNet</span></a></td>
-    <td class="tg-0pky">Visual-Only</td>
+    <td class="tg-0pky">Visual-Only/Supervised</td>
   </tr>
   <tr>
     <td class="tg-0pky">Darknet</td>
     <td class="tg-0pky"> <a href="https://github.com/yizhuoyang/AV-FDTI/blob/main/nets/comparison/darknet.py"><span style="color:#905">Darknet</span></a></td>
-    <td class="tg-0pky">Visual-Only</td>
+    <td class="tg-0pky">Visual-Only/Supervised</td>
   </tr>
 
   <tr>
     <td class="tg-0pky">VorasNet</td>
     <td class="tg-0pky"> <a href="https://github.com/yizhuoyang/AV-FDTI/blob/main/nets/comparison/voranet.py"><span style="color:#905">DroneChase</span></a></td>
-    <td class="tg-0pky">Audio-Only</td>
+    <td class="tg-0pky">Audio-Only/Supervised</td>
   </tr>
   <tr>
     <td class="tg-0pky">AV-PED</td>
     <td class="tg-0pky"> <a href="https://github.com/yizhuoyang/AV-FDTI/blob/main/nets/comparison/avped.py"><span style="color:#905">AV-PED</span></a></td>
-    <td class="tg-0pky">Audio-Visual</td>
+    <td class="tg-0pky">Audio-Visual/Self-Supervised</td>
   </tr>
   <tr>
     <td class="tg-0pky">Audionet</td>
     <td class="tg-0pky"> <a href="https://github.com/yizhuoyang/AV-FDTI/blob/main/nets/comparison/audionet.py"><span style="color:#905">Audionet</span></a></td>
-    <td class="tg-0pky">Audio-Only</td>
+    <td class="tg-0pky">Audio-Only/Supervised</td>
   </tr>
   <tr>
     <td class="tg-0pky">AV-FDTI</td>
     <td class="tg-0pky"> <a href="https://github.com/yizhuoyang/AV-FDTI/"><span style="color:#905">AV-FDTI</span></a></td>
-    <td class="tg-0pky">Audio-Visual</td>
+    <td class="tg-0pky">Audio-Visual/Supervised</td>
   </tr>
   <tr>
     <td class="tg-0pky">TAME</td>
     <td class="tg-0pky"> <a href="https://github.com/AmazingDay1/TAME"><span style="color:#905">TAME</span></a></td>
-    <td class="tg-0pky">Audio-Only</td>
+    <td class="tg-0pky">Audio-Only/Self-Supervised</td>
   </tr>
   <tr>
     <td class="tg-0pky">AAUTE</td>
     <td class="tg-0pky"> <a href="https://github.com/AllenLei666/AAUTE"><span style="color:#905">AAUTE</span></a></td>
-    <td class="tg-0pky">Audio-Only</td>
+    <td class="tg-0pky">Audio-Only/Self-Supervised</td>
   </tr>
   <tr>
     <td class="tg-0pky">UnLiDAR</td>
     <td class="tg-0pky"> <a href="https://github.com/lianghanfang/UnLiDAR-UAV-Est"><span style="color:#905">UnLiDAR</span></a></td>
-    <td class="tg-0pky">LiDAR-Only</td>
+    <td class="tg-0pky">LiDAR-Only/Unsupervised</td>
   </tr>
   <tr>
     <td class="tg-0pky">MMUDCT</td>
     <td class="tg-0pky"> <a href="https://github.com/dtc111111/Multi-Modal-UAV"><span style="color:#905">MMUDCT</span></a></td>
-    <td class="tg-0pky">LiDAR-Visual</td>
+    <td class="tg-0pky">LiDAR-Visual/Unsupervised</td>
   </tr>
    <tr>
     <td class="tg-0pky">AV-DTEC</td>
     <td class="tg-0pky"> <a href="https://github.com/AmazingDay1/AV-DETC"><span style="color:#905">AV-DTEC</span></a></td>
-    <td class="tg-0pky">LiDAR-Visual</td>
+    <td class="tg-0pky">LiDAR-Visual-Audio/Mamba/Self-Supervised</td>
   </tr>
 </tbody>
 </table>
