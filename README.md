@@ -298,13 +298,13 @@ We have done some experiments of state-of-the-art methods on our the datasets. I
 
 The [CAD drawing](https://github.com/ntu-aris/MMAUD/blob/gh-pages/drawing.rar) can be found here.
 
-Since there are multiple ethernet devices. It is recommended to set 2 livox lidar and MMwave radar to be at 192.168.10.xx , 192.168.11.xx , and 192.168.12.xx.
+Since there are multiple Ethernet devices. It is recommended to set 2 livox lidar and MMwave radar to be at 192.168.10.xx , 192.168.11.xx , and 192.168.12.xx.
 
-The microphone and camera can be obtained from Taobao. Whereas other LIDAR and RADAR need to find your local distributor to get it. 
+The microphone and camera can be obtained from Taobao. Whereas other LIDAR and RADAR systems need to find a local distributor to get them. 
 
 If you have any issues in recreating this rig, feel free to drop an issue in this dataset repo
 
-Calibration Info Can be found here
+Calibration Info can be found here
 
 ![image](https://github.com/user-attachments/assets/d52f9a39-c5ba-4d79-97dd-2dcf937d92ce)
 
@@ -315,13 +315,10 @@ Calibration Info Can be found here
 # Notes:
 For more information on the sensors and how to use the dataset, please checkout the other sections.
 
-For resources and other works of our group please checkout our [github](https://github.com/ntu-aris).
+For resources and other works of our group, please check out our [github](https://github.com/ntu-aris).
 
-If you have some inquiry, please raise an [issue](https://github.com/ntu-aris/MMAUD/issues) on github.
-
-# Thanks
-Each part of the code is obtained separately from a different source. Please help cite their corresponding works accordingly. 
+If you have any inquiries, please raise an [issue](https://github.com/ntu-aris/MMAUD/issues) on GitHub.
 
 # Licence
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/) and is intended for non-commercial academic use.
-If you are interested in using the dataset for commercial purposes please [contact us](mailto:aris.eee.ntu@gmail.com).
+If you are interested in using the dataset for commercial purposes, please [contact us](mailto:aris.eee.ntu@gmail.com).
