@@ -320,7 +320,7 @@ The Livox Avia was about US$1.5k
 
 And Livox Mid360 was like US$580 . Although I heard people can get it at US$400+. I`m not exacly sure which store to hit. 
 
-The radar was most expensive one, which costs around US$3,700
+The radar was most expensive one, which costs around US$3,700. But I suggest a better one, as this only has a 120+ degree x 40+ degree field of view (if I`m not wrong). 
 
 # Notes:
 For more information on the sensors and how to use the dataset, please checkout the other sections.
