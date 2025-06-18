@@ -322,7 +322,10 @@ Most of the required devices are commercially available and can be sourced from 
 - **Millimeter-Wave Radar**: Approximately **USD $3,700**  
   _(This was the most expensive component. However, we recommend considering alternative models with wider field-of-view coverage, as this unit offers only around **120° × 40°**, which may be limiting for certain applications.)_
 
-> For mor
+
+> For more precise sourcing, we suggest contacting local distributors or authorized resellers who specialize in robotics and sensing equipment.
+>
+> 
 # Notes:
 For more information on the sensors and how to use the dataset, please checkout the other sections.
 
