@@ -310,20 +310,19 @@ Calibration Info can be found here
 
 ![image](https://github.com/user-attachments/assets/2c5d39da-4842-4570-867d-fd89ad4d1af5)
 
-# Where to purchase for reproducing the similar dataset
+### Equipment Procurement for Dataset Reproduction
 
-Most devices can be found on Taobao
+Most of the required devices are commercially available and can be sourced from platforms such as **Taobao** or other regional suppliers. Below is an approximate cost breakdown:
 
-The Stereo camera costs around US$110 
+- **Stereo Camera**: Approximately **USD $110**
+- **Microphone Array**: Approximately **USD $90**
+- **Livox Avia LiDAR**: Around **USD $1,500**
+- **Livox Mid-360 LiDAR**: Approximately **USD $580**  
+  _(Some users report sourcing it for as low as **USD $400+**, though specific vendor details may vary)_
+- **Millimeter-Wave Radar**: Approximately **USD $3,700**  
+  _(This was the most expensive component. However, we recommend considering alternative models with wider field-of-view coverage, as this unit offers only around **120° × 40°**, which may be limiting for certain applications.)_
 
-The microphone array costs around US$90 
-
-The Livox Avia was about US$1.5k 
-
-And Livox Mid360 was like US$580. Although I heard people can get it at US$400+. I`m not exacly sure which store to hit. 
-
-The radar was most expensive one, which costs around US$3,700. But I suggest a better one, as this only has a 120+ degree x 40+ degree field of view (if I`m not wrong). 
-
+> For mor
 # Notes:
 For more information on the sensors and how to use the dataset, please checkout the other sections.
 
