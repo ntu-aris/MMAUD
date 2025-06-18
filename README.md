@@ -310,7 +310,17 @@ Calibration Info can be found here
 
 ![image](https://github.com/user-attachments/assets/2c5d39da-4842-4570-867d-fd89ad4d1af5)
 
+Most devices can be found on Taobao
 
+The Stereo camera costs around US$110 
+
+The microphone array cost around US$90 
+
+The Livox Avia was about US$1.5k 
+
+And Livox Mid360 was like US$580 . Although I heard people can get it at US$400+. I`m not exacly sure which store to hit. 
+
+The radar was most expensive one, which costs around US$3,700
 
 # Notes:
 For more information on the sensors and how to use the dataset, please checkout the other sections.
