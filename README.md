@@ -195,7 +195,7 @@ Note: All rosbag data has been compressed using 'rosbag compress' to reduce its 
 </p>
 
 
-V2 and V3 were used for the CVPR UG2+ challenge, which is more challenging than V1. V1 mostly flies below 30m, while V2 and V3 are designed for actual warfare simulation, reaching up to 70m. UAV Precision hits are unlikely to go beyond 70m. The results of the UG2 CVPR 2024 challenge are now available.
+V2 and V3 were used for the CVPR UG2+ challenge, which is more challenging than V1. V1 mostly flies below 30m, while V2 and V3 are designed for actual warfare simulation, reaching up to 100m. UAV Precision hits are unlikely to go beyond 100m. The results of the UG2 CVPR 2024 challenge are now available.
 
 # Calibration Data
 
