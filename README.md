@@ -28,6 +28,9 @@ If you use some resource from this data suite, please cite it as
 ```
 
 # Downloads
+
+**📦 For the latest complete MMAUD dataset, please visit [Hugging Face](https://huggingface.co/datasets/Yuan-Shenghai/MMAUD).**
+
 <!--
 Note: The files below are hosted on [NTU Data Repository](https://researchdata.ntu.edu.sg/dataset.xhtml?persistentId=doi:10.21979/N9/X39LEK).
 If you experience interruption from the NTU Data Repository, please try downloading the files from this [Onedrive folder](https://entuedu-my.sharepoint.com/:f:/g/personal/shyuan_staff_main_ntu_edu_sg/EvyxXbi1l5tHonBWIQxueBoByr1-E-w7fgRyHNTsCmwFcg).
