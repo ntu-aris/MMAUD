@@ -206,95 +206,85 @@ For calibration data, please refer to the google drive fisheye_calibration.zip  
 
 # Quick use
 
-We have done some experiments of state-of-the-art methods on our the datasets. If you are seeking to do the same, please check out the following to get the work done quickly.
+## 💻 Baseline code
 
-### Remark: The 2D detection baseline is considered too trivial to be provided separately. Interested party can download the data here https://drive.google.com/drive/folders/1_LpPyIfETQS-k2vlSsbzI9pzyVzZScSx?usp=sharing. Then follow the official code of yolov5 to train the model: https://github.com/ultralytics/yolov5. For rest of other 2D detection pipelines, it should be similar.
+**Choose a baseline for your sensor setup.** The catalogue includes the original **11 MMAUD baselines**, **5 additional methods, pipelines or backbones**, **4 detector families**, and **5 data or evaluation tools**.
+
+📖 **[Baseline guide](https://huggingface.co/datasets/Yuan-Shenghai/MMAUD/blob/main/BASELINES.md)** · 📚 **[Papers and BibTeX](https://huggingface.co/datasets/Yuan-Shenghai/MMAUD/blob/main/MMAUD_BASELINES.bib)** · 🔎 **[Code and source audit](https://huggingface.co/datasets/Yuan-Shenghai/MMAUD/blob/main/metadata/BASELINE_SEARCH_AUDIT.json)**
+
+The guide covers installation, input preparation, training/evaluation entry points and licenses. Paper links accompany research methods; software references identify community implementations and tools. Check the required annotations, pretrained weights and calibration before running a pipeline.
+
+### Original MMAUD baselines
+
+| Method / resource | Sensor input / purpose | Code / setup | Paper / reference |
+| --- | --- | --- | --- |
+| ResNet | Images | [Code](https://github.com/yizhuoyang/AV-FDTI) · [Comparison model](https://github.com/yizhuoyang/AV-FDTI/blob/f852ff8fe3a6e9a0b0c10eb632069af1d1253eb6/nets/comparison/resnet50_visual.py) | [Paper](https://doi.org/10.1109/cvpr.2016.90) |
+| Darknet | Images | [Code](https://github.com/yizhuoyang/AV-FDTI) · [Comparison model](https://github.com/yizhuoyang/AV-FDTI/blob/f852ff8fe3a6e9a0b0c10eb632069af1d1253eb6/nets/comparison/darknet.py) | [Paper](https://arxiv.org/abs/1804.02767) |
+| VorasNet / DroneChase | Audio | [Code](https://github.com/yizhuoyang/AV-FDTI) · [Comparison model](https://github.com/yizhuoyang/AV-FDTI/blob/f852ff8fe3a6e9a0b0c10eb632069af1d1253eb6/nets/comparison/voranet.py) | [Paper](https://doi.org/10.1145/3597060.3597237) |
+| AV-PED | Audio + images | [Code](https://github.com/yizhuoyang/AV-FDTI) · [Comparison model](https://github.com/yizhuoyang/AV-FDTI/blob/f852ff8fe3a6e9a0b0c10eb632069af1d1253eb6/nets/comparison/avped.py) | [Paper](https://doi.org/10.1109/iros55552.2023.10342257) |
+| Audionet | Audio | [Code](https://github.com/yizhuoyang/AV-FDTI) · [Comparison model](https://github.com/yizhuoyang/AV-FDTI/blob/f852ff8fe3a6e9a0b0c10eb632069af1d1253eb6/nets/comparison/audionet.py) | [Paper](https://doi.org/10.1109/iros55552.2023.10342257) |
+| AV-FDTI | Audio + images | [Code](https://github.com/yizhuoyang/AV-FDTI) | [Paper](https://doi.org/10.1016/j.jai.2024.06.002) |
+| TAME | Audio | [Code](https://github.com/AmazingDay1/TAME) | [Paper](https://doi.org/10.1109/icassp49660.2025.10888776) |
+| AAUTE | Audio | [Code](https://github.com/AllenLei666/AAUTE) | [Paper](https://doi.org/10.1109/icassp49660.2025.10887734) |
+| UnLiDAR | LiDAR | [Code](https://github.com/lianghanfang/ICASSP-LiDAR-Drone-Detect) | [Paper](https://doi.org/10.1109/icassp49660.2025.10890359) |
+| MMUDCT | LiDAR + images | [Code](https://github.com/dtc111111/Multi-Modal-UAV) | [Paper](https://arxiv.org/abs/2405.16464) |
+| AV-DTEC | Audio + images; LiDAR-derived supervision | [Code](https://github.com/AmazingDay1/AV-DETC) | [Paper](https://doi.org/10.1109/jsen.2026.3680898) |
+
+
+AV-PED and Audionet share the AV-PedAware reference. The AV-DTEC code repository is named `AV-DETC`.
+
+### Additional public methods and implementations
+
+These entries cover multimodal classification, trajectory estimation and feature extraction. PointNeXt-S is a point-cloud backbone used by the LMMUAVC pipeline.
+
+| Method / resource | Sensor input / purpose | Code / setup | Paper / reference |
+| --- | --- | --- | --- |
+| LMMUAVC — lightweight fusion | RGB + Livox Avia + 360° LiDAR + radar | [Code](https://github.com/huanyuFENG-KONG/LMMUAVC) · [Entry point](https://github.com/huanyuFENG-KONG/LMMUAVC/blob/261002d9c1d81808785dffce0260cad21b3b36a2/LMMUAVC/visual_processing/preprocessing/train_lightweight.py) | [Software DOI](https://doi.org/10.5281/zenodo.22670375) |
+| TARF | Multiple LiDAR streams | [Code](https://github.com/hasiburrahman875/tarf_mmuav) · [Entry point](https://github.com/hasiburrahman875/tarf_mmuav/blob/4621a17ae9feaabe9f21ea0337e7b62d6bc6b49a/scripts/run_tarf_infer.py) | [Software notes](https://github.com/hasiburrahman875/tarf_mmuav#readme) |
+| MMAUD acoustic Transformer | Four-channel audio | [Code](https://github.com/Shubham-3256/Baseline-MMAUD-acoustic-transformer-implementation-p2) · [Entry point](https://github.com/Shubham-3256/Baseline-MMAUD-acoustic-transformer-implementation-p2/blob/5283b488757cf5cca531e959c074f99ed26caa4e/train.py) | [Software notes](https://github.com/Shubham-3256/Baseline-MMAUD-acoustic-transformer-implementation-p2/blob/5283b488757cf5cca531e959c074f99ed26caa4e/README.md) |
+| YOLOv8 + geometry + Kalman tracking | Stereo or monocular RGB | [Code](https://github.com/sebovelan/drone-multimodal-detection) · [Entry point](https://github.com/sebovelan/drone-multimodal-detection/blob/3926248da1c473822d19cd15bed2055f99964c0e/src/rgb_baseline.py) | [Software notes](https://github.com/sebovelan/drone-multimodal-detection#readme) |
+| PointNeXt-S | LiDAR point clouds / object crops | [Code](https://github.com/guochengqian/PointNeXt) · [Entry point](https://github.com/guochengqian/PointNeXt/blob/b7ec10fd8b9acdb1c3b18e557f0d3465eb919164/README.md) | [Paper](https://arxiv.org/abs/2206.04670) |
+
+
+### 2D image detection
+
+Use the [annotated 2D subset](https://drive.google.com/drive/folders/1_LpPyIfETQS-k2vlSsbzI9pzyVzZScSx?usp=sharing) with the selected framework’s custom-data training workflow. Declare the sequence split and provide drone labels or trained weights. These detector frameworks require MMAUD-specific training and preprocessing.
+
+| Method / resource | Sensor input / purpose | Code / setup | Paper / reference |
+| --- | --- | --- | --- |
+| YOLOv5 | RGB images + 2D training boxes | [Code](https://github.com/ultralytics/yolov5) | [Software notes](https://github.com/ultralytics/yolov5#readme) |
+| YOLOv8 | RGB images + 2D training boxes | [Code](https://github.com/ultralytics/ultralytics) · [Entry point](https://github.com/ultralytics/ultralytics/blob/aa1f778a75a610f7dd2aa4762df1c25f6a3063d7/README.md) | [Software notes](https://github.com/ultralytics/ultralytics#readme) |
+| YOLOv10 | RGB images + 2D training boxes | [Code](https://github.com/THU-MIG/yolov10) · [Entry point](https://github.com/THU-MIG/yolov10/blob/453c6e38a51e9d1d5a2aa5fb7f1014a711913397/README.md) | [Paper](https://arxiv.org/abs/2405.14458) |
+| YOLO11 | RGB images + 2D training boxes | [Code](https://github.com/ultralytics/ultralytics) · [Entry point](https://github.com/ultralytics/ultralytics/blob/aa1f778a75a610f7dd2aa4762df1c25f6a3063d7/README.md) | [Software notes](https://github.com/ultralytics/ultralytics#readme) |
+
 
 <p align="center">
-    <img src="images/2ddetection_result.png" alt=" 2D Detection Result Graph " width="50%"/>
+    <img src="images/2ddetection_result.png" alt="2D detection results" width="50%"/>
 </p>
 <p align="center">
-    <img src="images/visual_detection_results.png" alt=" 2D Detection Result Visual " width="50%"/>
+    <img src="images/visual_detection_results.png" alt="Visual detection examples" width="50%"/>
 </p>
 
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-</style>
-<table class="tg">
-<thead>
-  <tr>
-    <th class="tg-c3ow">3D Pose Estimation</th>
-    <th class="tg-c3ow">Repository</th>
-    <th class="tg-c3ow">Remark</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-0pky">ResNet</td>
-    <td class="tg-0pky"> <a href="https://github.com/yizhuoyang/AV-FDTI/blob/main/nets/comparison/resnet50_visual.py"><span style="color:#905">ResNet</span></a></td>
-    <td class="tg-0pky">Visual-Only/Supervised</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Darknet</td>
-    <td class="tg-0pky"> <a href="https://github.com/yizhuoyang/AV-FDTI/blob/main/nets/comparison/darknet.py"><span style="color:#905">Darknet</span></a></td>
-    <td class="tg-0pky">Visual-Only/Supervised</td>
-  </tr>
+### Data preparation, annotation and evaluation tools
 
-  <tr>
-    <td class="tg-0pky">VorasNet</td>
-    <td class="tg-0pky"> <a href="https://github.com/yizhuoyang/AV-FDTI/blob/main/nets/comparison/voranet.py"><span style="color:#905">DroneChase</span></a></td>
-    <td class="tg-0pky">Audio-Only/Supervised</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">AV-PED</td>
-    <td class="tg-0pky"> <a href="https://github.com/yizhuoyang/AV-FDTI/blob/main/nets/comparison/avped.py"><span style="color:#905">AV-PED</span></a></td>
-    <td class="tg-0pky">Audio-Visual/Self-Supervised</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">Audionet</td>
-    <td class="tg-0pky"> <a href="https://github.com/yizhuoyang/AV-FDTI/blob/main/nets/comparison/audionet.py"><span style="color:#905">Audionet</span></a></td>
-    <td class="tg-0pky">Audio-Only/Supervised</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">AV-FDTI</td>
-    <td class="tg-0pky"> <a href="https://github.com/yizhuoyang/AV-FDTI/"><span style="color:#905">AV-FDTI</span></a></td>
-    <td class="tg-0pky">Audio-Visual/Supervised</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">TAME</td>
-    <td class="tg-0pky"> <a href="https://github.com/AmazingDay1/TAME"><span style="color:#905">TAME</span></a></td>
-    <td class="tg-0pky">Audio-Only/Self-Supervised</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">AAUTE</td>
-    <td class="tg-0pky"> <a href="https://github.com/AllenLei666/AAUTE"><span style="color:#905">AAUTE</span></a></td>
-    <td class="tg-0pky">Audio-Only/Self-Supervised</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">UnLiDAR</td>
-    <td class="tg-0pky"> <a href="https://github.com/lianghanfang/ICASSP-LiDAR-Drone-Detect"><span style="color:#905">UnLiDAR</span></a></td>
-    <td class="tg-0pky">LiDAR-Only/Unsupervised</td>
-  </tr>
-  <tr>
-    <td class="tg-0pky">MMUDCT</td>
-    <td class="tg-0pky"> <a href="https://github.com/dtc111111/Multi-Modal-UAV"><span style="color:#905">MMUDCT</span></a></td>
-    <td class="tg-0pky">LiDAR-Visual/Unsupervised</td>
-  </tr>
-   <tr>
-    <td class="tg-0pky">AV-DTEC</td>
-    <td class="tg-0pky"> <a href="https://github.com/AmazingDay1/AV-DETC"><span style="color:#905">AV-DTEC</span></a></td>
-    <td class="tg-0pky">LiDAR-Visual-Audio/Mamba/Self-Supervised</td>
-  </tr>
-</tbody>
-</table>
+GT-assisted tools support annotation and evaluation; keep ground truth out of sensor-only inference. The simulation and filtering tools below serve synthetic-data and trajectory studies.
+
+| Method / resource | Sensor input / purpose | Code / setup | Paper / reference |
+| --- | --- | --- | --- |
+| LiDAR–image alignment and labeling | LiDAR + images + GT for annotation | [Code](https://github.com/Blank-Paradox/LiDAR-and-visible-light-MMAUD-dataset) · [Entry point](https://github.com/Blank-Paradox/LiDAR-and-visible-light-MMAUD-dataset/blob/fd214ab28c629ba20cf8b906c7a4bd07cd3c695e/Preprocessing/lidar/gt_calibration.py) | [Software notes](https://github.com/Blank-Paradox/LiDAR-and-visible-light-MMAUD-dataset#readme) |
+| LiDAR trajectory labeling tool | Point clouds + optional trajectory reference | [Code](https://github.com/Hsief/lidar-trajectory-label-tool) · [Entry point](https://github.com/Hsief/lidar-trajectory-label-tool/blob/8715ede3ccff1f51b4fc3542580f305d8a61f1d5/mmaud_match_and_label_config.py) | [Software notes](https://github.com/Hsief/lidar-trajectory-label-tool#readme) |
+| MMAUD synthetic data generation | Simulated RGB and LiDAR; recorded flight trajectory | [Code](https://github.com/C-nwokoye/MMAUD_Research) · [Entry point](https://github.com/C-nwokoye/MMAUD_Research/blob/3fd9e714293c28a0fb91c02cded785615ec335bf/build_scene.py) | [Software notes](https://github.com/C-nwokoye/MMAUD_Research#readme) |
+| Sound Processing toolkit | Microphone-array audio | [Code](https://github.com/vb-pogribnyi/sound_processing) · [Entry point](https://github.com/vb-pogribnyi/sound_processing/blob/4719cacd9d197addbc21dafe49fb3518606026c5/Training/train.py) | [Software notes](https://github.com/vb-pogribnyi/sound_processing#readme) |
+| EvoKF trajectory experiments | Trajectories with simulated measurement noise | [Code](https://github.com/mihaozbot/Evolving-drone-tracking) · [Entry point](https://github.com/mihaozbot/Evolving-drone-tracking/blob/83b525614a6a90a78ff14b1f6d04eef63694906b/python/behaviour.py) | [Software notes](https://github.com/mihaozbot/Evolving-drone-tracking#readme) |
 
 
+### Related implementations and tutorials
+
+- **ResNet / VisualNet, AudioNet and VorasNet**: [Code](https://github.com/hxlei0827/UAV_comparison) · [Checked implementation](https://github.com/hxlei0827/UAV_comparison/blob/f46aa621850619d3a5215a3025eb8865caec55f7/visual_net.py). Additional comparison modules. VisualNet wraps pretrained ResNet-50, so it is grouped with ResNet rather than counted as a new architecture. The module needs a training/data pipeline.
+- **AAUTE-style audio CNN**: [Code](https://github.com/Shubham-3256/audio-uav-trajectory-p1-) · [Checked implementation](https://github.com/Shubham-3256/audio-uav-trajectory-p1-/blob/a2133151f4a939de1da4c02280e8befc15659c85/README.md). Community audio trajectory workflow with preprocessing and smoothing; use its own setup rather than treating it as the original AAUTE release.
+- **AV-PedAware**: [Code and preprocessing tutorial](https://github.com/yizhuoyang/AV-PedAware) · [Paper](https://doi.org/10.1109/iros55552.2023.10342257).
+
+Code and entry points were checked on **26 October 2026**. See the linked papers for experimental results.
 
 # CAD drawing for dataset expansion
 
