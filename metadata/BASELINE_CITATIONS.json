@@ -1,0 +1,1420 @@
+{
+  "checked_at_local": "2026-10-24T22:34:16",
+  "timezone": "Asia/Singapore",
+  "scope": "Paper citations for all 11 methods in the MMAUD baseline code table.",
+  "baseline_method_count": 11,
+  "distinct_baseline_papers": 10,
+  "combined_bibtex": "MMAUD_BASELINES.bib",
+  "combined_entry_count": 24,
+  "dataset_bibtex_key": "yuan2024MMAUD",
+  "baseline_citations": [
+    {
+      "id": "resnet",
+      "bibtex_key": "he2016resnet",
+      "entry_type": "inproceedings",
+      "fields": {
+        "author": "He, Kaiming and Zhang, Xiangyu and Ren, Shaoqing and Sun, Jian",
+        "title": "Deep Residual Learning for Image Recognition",
+        "booktitle": "2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+        "year": "2016",
+        "pages": "770--778",
+        "doi": "10.1109/cvpr.2016.90",
+        "url": "https://doi.org/10.1109/cvpr.2016.90"
+      },
+      "methods": [
+        "ResNet"
+      ],
+      "publication_label": "CVPR 2016",
+      "sources": [
+        {
+          "type": "publisher_deposited_metadata",
+          "url": "https://api.crossref.org/works/10.1109/cvpr.2016.90",
+          "publisher": "IEEE"
+        },
+        {
+          "type": "conference_paper",
+          "url": "https://openaccess.thecvf.com/content_cvpr_2016/html/He_Deep_Residual_Learning_CVPR_2016_paper.html"
+        }
+      ]
+    },
+    {
+      "id": "darknet",
+      "bibtex_key": "redmon2018yolov3",
+      "entry_type": "misc",
+      "fields": {
+        "author": "Redmon, Joseph and Farhadi, Ali",
+        "title": "{YOLOv3}: An Incremental Improvement",
+        "year": "2018",
+        "eprint": "1804.02767",
+        "archivePrefix": "arXiv",
+        "primaryClass": "cs.CV",
+        "url": "https://arxiv.org/abs/1804.02767"
+      },
+      "methods": [
+        "Darknet"
+      ],
+      "publication_label": "Technical report, 2018",
+      "sources": [
+        {
+          "type": "author_manuscript",
+          "url": "https://arxiv.org/abs/1804.02767"
+        },
+        {
+          "type": "implementation",
+          "url": "https://github.com/yizhuoyang/AV-FDTI/blob/main/nets/comparison/darknet.py",
+          "git_blob_sha": "89d7e28876895d4f6281f9def81848f84c669ccc"
+        }
+      ],
+      "mapping_note": "The linked comparison code implements DarkNet53 and explicitly links the YOLOv3 paper."
+    },
+    {
+      "id": "dronechase",
+      "bibtex_key": "vora2023dronechase",
+      "entry_type": "inproceedings",
+      "fields": {
+        "author": "Vora, Neel and Wu, Yi and Liu, Jian and Nguyen, Phuc",
+        "title": "{DroneChase}: A Mobile and Automated Cross-Modality System for Continuous Drone Tracking",
+        "booktitle": "Proceedings of the Ninth Workshop on Micro Aerial Vehicle Networks, Systems, and Applications",
+        "year": "2023",
+        "pages": "8--14",
+        "doi": "10.1145/3597060.3597237",
+        "url": "https://doi.org/10.1145/3597060.3597237"
+      },
+      "methods": [
+        "VorasNet / DroneChase"
+      ],
+      "publication_label": "DroNet 2023",
+      "sources": [
+        {
+          "type": "publisher_deposited_metadata",
+          "url": "https://api.crossref.org/works/10.1145/3597060.3597237",
+          "publisher": "ACM"
+        },
+        {
+          "type": "implementation",
+          "url": "https://github.com/yizhuoyang/AV-FDTI/blob/main/nets/comparison/voranet.py",
+          "git_blob_sha": "b9414c562ca8d97c23df9af9d91215c5182c6cc6"
+        }
+      ],
+      "mapping_note": "The comparison implementation states that it reimplements DroneChase."
+    },
+    {
+      "id": "avped",
+      "bibtex_key": "yang2023avpedaware",
+      "entry_type": "inproceedings",
+      "fields": {
+        "author": "Yang, Yizhuo and Yuan, Shenghai and Cao, Muqing and Yang, Jianfei and Xie, Lihua",
+        "title": "{AV-PedAware}: Self-Supervised Audio-Visual Fusion for Dynamic Pedestrian Awareness",
+        "booktitle": "2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)",
+        "year": "2023",
+        "pages": "1871--1877",
+        "doi": "10.1109/iros55552.2023.10342257",
+        "url": "https://doi.org/10.1109/iros55552.2023.10342257"
+      },
+      "methods": [
+        "AV-PED",
+        "Audionet"
+      ],
+      "publication_label": "IROS 2023",
+      "sources": [
+        {
+          "type": "publisher_deposited_metadata",
+          "url": "https://api.crossref.org/works/10.1109/iros55552.2023.10342257",
+          "publisher": "IEEE"
+        },
+        {
+          "type": "author_manuscript",
+          "url": "https://arxiv.org/abs/2411.06789"
+        },
+        {
+          "type": "author_repository_readme",
+          "url": "https://github.com/yizhuoyang/AV-PedAware/blob/main/README.md",
+          "git_blob_sha": "f023b2313dffe4db9607d9fac0ce405878db5ff5"
+        },
+        {
+          "type": "baseline_mapping_in_author_paper",
+          "url": "https://arxiv.org/html/2412.12698v5",
+          "location": "Table I and reference 40"
+        },
+        {
+          "type": "implementation",
+          "url": "https://github.com/yizhuoyang/AV-FDTI/blob/main/nets/comparison/avped.py",
+          "git_blob_sha": "78f6287608e3cf5357281082810b00c02c8ecf2c"
+        }
+      ],
+      "mapping_note": "AAUTE Table I attributes both AudioNet and AV-PED to reference 40, AV-PedAware. The AV-FDTI comparison code adapts these models to MMAUD."
+    },
+    {
+      "id": "avfdti",
+      "bibtex_key": "yang2024avfdti",
+      "entry_type": "article",
+      "fields": {
+        "author": "Yang, Yizhuo and Yuan, Shenghai and Yang, Jianfei and Nguyen, Thien Hoang and Cao, Muqing and Nguyen, Thien-Minh and Wang, Han and Xie, Lihua",
+        "title": "{AV-FDTI}: Audio-visual fusion for drone threat identification",
+        "journal": "Journal of Automation and Intelligence",
+        "year": "2024",
+        "volume": "3",
+        "number": "3",
+        "pages": "144--151",
+        "doi": "10.1016/j.jai.2024.06.002",
+        "url": "https://doi.org/10.1016/j.jai.2024.06.002"
+      },
+      "methods": [
+        "AV-FDTI"
+      ],
+      "publication_label": "Journal of Automation and Intelligence, 2024",
+      "sources": [
+        {
+          "type": "publisher_deposited_metadata",
+          "url": "https://api.crossref.org/works/10.1016/j.jai.2024.06.002",
+          "publisher": "Elsevier BV"
+        },
+        {
+          "type": "author_repository_readme",
+          "url": "https://github.com/yizhuoyang/AV-FDTI/blob/main/README.md",
+          "git_blob_sha": "9914dda247ab0c7f53b1f784492a9dcf8b9f80fe"
+        }
+      ]
+    },
+    {
+      "id": "tame",
+      "bibtex_key": "xiao2025tame",
+      "entry_type": "inproceedings",
+      "fields": {
+        "author": "Xiao, Zhenyuan and Hu, Huanran and Xu, Guili and He, Junwei",
+        "title": "{TAME}: Temporal Audio-based Mamba for Enhanced Drone Trajectory Estimation and Classification",
+        "booktitle": "ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+        "year": "2025",
+        "pages": "1--5",
+        "doi": "10.1109/icassp49660.2025.10888776",
+        "url": "https://doi.org/10.1109/icassp49660.2025.10888776"
+      },
+      "methods": [
+        "TAME"
+      ],
+      "publication_label": "ICASSP 2025",
+      "sources": [
+        {
+          "type": "publisher_deposited_metadata",
+          "url": "https://api.crossref.org/works/10.1109/icassp49660.2025.10888776",
+          "publisher": "IEEE"
+        },
+        {
+          "type": "author_manuscript",
+          "url": "https://arxiv.org/abs/2412.13037"
+        },
+        {
+          "type": "author_repository_readme",
+          "url": "https://github.com/AmazingDay1/TAME/blob/main/README.md",
+          "git_blob_sha": "a8ffbb48453858aeb38bc9ddd1ec381237a7f4bf"
+        }
+      ]
+    },
+    {
+      "id": "aaute",
+      "bibtex_key": "lei2025aaute",
+      "entry_type": "inproceedings",
+      "fields": {
+        "author": "Lei, Allen H.-X. and Deng, Tianchen and Wang, Han and Yang, Jianfei and Yuan, Shenghai",
+        "title": "Audio Array-Based {3D} {UAV} Trajectory Estimation with {LiDAR} Pseudo-Labeling",
+        "booktitle": "ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+        "year": "2025",
+        "pages": "1--5",
+        "doi": "10.1109/icassp49660.2025.10887734",
+        "url": "https://doi.org/10.1109/icassp49660.2025.10887734"
+      },
+      "methods": [
+        "AAUTE"
+      ],
+      "publication_label": "ICASSP 2025",
+      "sources": [
+        {
+          "type": "publisher_deposited_metadata",
+          "url": "https://api.crossref.org/works/10.1109/icassp49660.2025.10887734",
+          "publisher": "IEEE"
+        },
+        {
+          "type": "author_manuscript",
+          "url": "https://arxiv.org/abs/2412.12698"
+        }
+      ]
+    },
+    {
+      "id": "unlidar",
+      "bibtex_key": "liang2025unlidar",
+      "entry_type": "inproceedings",
+      "fields": {
+        "author": "Liang, Hanfang and Yang, Yizhuo and Hu, Jinming and Yang, Jianfei and Liu, Fen and Yuan, Shenghai",
+        "title": "Unsupervised {UAV} {3D} Trajectories Estimation with Sparse Point Clouds",
+        "booktitle": "ICASSP 2025 - 2025 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+        "year": "2025",
+        "pages": "1--5",
+        "doi": "10.1109/icassp49660.2025.10890359",
+        "url": "https://doi.org/10.1109/icassp49660.2025.10890359"
+      },
+      "methods": [
+        "UnLiDAR"
+      ],
+      "publication_label": "ICASSP 2025",
+      "sources": [
+        {
+          "type": "publisher_deposited_metadata",
+          "url": "https://api.crossref.org/works/10.1109/icassp49660.2025.10890359",
+          "publisher": "IEEE"
+        },
+        {
+          "type": "author_manuscript",
+          "url": "https://arxiv.org/abs/2412.12716"
+        }
+      ]
+    },
+    {
+      "id": "mmudct",
+      "bibtex_key": "deng2024mmudct",
+      "entry_type": "misc",
+      "fields": {
+        "author": "Deng, Tianchen and Zhou, Yi and Wu, Wenhua and Li, Mingrui and Huang, Jingwei and Liu, Shuhong and Song, Yanzeng and Zuo, Hao and Wang, Yanbo and Yue, Yutao and Wang, Hesheng and Chen, Weidong",
+        "title": "Multi-Modal {UAV} Detection, Classification and Tracking Algorithm -- Technical Report for {CVPR} 2024 {UG2} Challenge",
+        "year": "2024",
+        "eprint": "2405.16464",
+        "archivePrefix": "arXiv",
+        "primaryClass": "cs.RO",
+        "url": "https://arxiv.org/abs/2405.16464"
+      },
+      "methods": [
+        "MMUDCT"
+      ],
+      "publication_label": "Challenge technical report, 2024",
+      "sources": [
+        {
+          "type": "author_manuscript",
+          "url": "https://arxiv.org/abs/2405.16464"
+        },
+        {
+          "type": "author_repository_readme",
+          "url": "https://github.com/dtc111111/Multi-Modal-UAV/blob/main/README.md",
+          "git_blob_sha": "dec7f1184978a9bf4acff21b13d10e75e4a2a8d9"
+        }
+      ]
+    },
+    {
+      "id": "avdtec",
+      "bibtex_key": "xiao2026avdtec",
+      "entry_type": "article",
+      "fields": {
+        "author": "Xiao, Zhenyuan and Yuan, Shenghai and Xu, Guili and Zeng, Xianglong and Hu, Huanran and He, Junwei and Yang, Yizhuo",
+        "title": "{AV-DTEC}: Self-Supervised Audio-Visual Fusion for Drone {3-D} Trajectory Estimation and Classification",
+        "journal": "IEEE Sensors Journal",
+        "year": "2026",
+        "volume": "26",
+        "number": "10",
+        "pages": "15912--15924",
+        "doi": "10.1109/jsen.2026.3680898",
+        "url": "https://doi.org/10.1109/jsen.2026.3680898"
+      },
+      "methods": [
+        "AV-DTEC"
+      ],
+      "publication_label": "IEEE Sensors Journal, 2026",
+      "sources": [
+        {
+          "type": "publisher_deposited_metadata",
+          "url": "https://api.crossref.org/works/10.1109/jsen.2026.3680898",
+          "publisher": "Institute of Electrical and Electronics Engineers (IEEE)"
+        },
+        {
+          "type": "author_repository_readme",
+          "url": "https://github.com/AmazingDay1/AV-DETC/blob/main/README.md",
+          "git_blob_sha": "d52c98209560dbccf63bb9fbb8343f1e60b0340d"
+        }
+      ],
+      "mapping_note": "Use the published 2026 journal citation and author order from the author repository and publisher metadata; the earlier preprint has different metadata. The code repository is spelled AV-DETC."
+    }
+  ],
+  "submission_wording": "If an unaccepted double-anonymous submission is listed, use Submitted for review without naming the target venue. Published citations retain their venue.",
+  "additional_references": [
+    {
+      "method": "LMMUAVC — lightweight fusion",
+      "bibtex_key": "code_LMMUAVC_lightweight_fusion",
+      "reference_type": "software",
+      "url": "https://doi.org/10.5281/zenodo.22670375",
+      "code": "https://github.com/huanyuFENG-KONG/LMMUAVC/blob/261002d9c1d81808785dffce0260cad21b3b36a2/LMMUAVC/visual_processing/preprocessing/train_lightweight.py"
+    },
+    {
+      "method": "TARF",
+      "bibtex_key": "code_TARF",
+      "reference_type": "software",
+      "url": "https://github.com/hasiburrahman875/tarf_mmuav",
+      "code": "https://github.com/hasiburrahman875/tarf_mmuav/blob/4621a17ae9feaabe9f21ea0337e7b62d6bc6b49a/scripts/run_tarf_infer.py"
+    },
+    {
+      "method": "MMAUD acoustic Transformer",
+      "bibtex_key": "code_MMAUD_acoustic_Transformer",
+      "reference_type": "software",
+      "url": "https://github.com/Shubham-3256/Baseline-MMAUD-acoustic-transformer-implementation-p2",
+      "code": "https://github.com/Shubham-3256/Baseline-MMAUD-acoustic-transformer-implementation-p2/blob/5283b488757cf5cca531e959c074f99ed26caa4e/train.py"
+    },
+    {
+      "method": "YOLOv8 + geometry + Kalman tracking",
+      "bibtex_key": "code_YOLOv8_geometry_Kalman_tracking",
+      "reference_type": "software",
+      "url": "https://github.com/sebovelan/drone-multimodal-detection",
+      "code": "https://github.com/sebovelan/drone-multimodal-detection/blob/3926248da1c473822d19cd15bed2055f99964c0e/src/rgb_baseline.py"
+    },
+    {
+      "method": "PointNeXt-S",
+      "bibtex_key": "qian2022pointnext",
+      "reference_type": "paper",
+      "url": "https://arxiv.org/abs/2206.04670",
+      "code": "https://github.com/guochengqian/PointNeXt/blob/b7ec10fd8b9acdb1c3b18e557f0d3465eb919164/README.md"
+    },
+    {
+      "method": "YOLOv8",
+      "bibtex_key": "code_YOLOv8",
+      "reference_type": "software",
+      "url": "https://github.com/ultralytics/ultralytics",
+      "code": "https://github.com/ultralytics/ultralytics/blob/aa1f778a75a610f7dd2aa4762df1c25f6a3063d7/README.md"
+    },
+    {
+      "method": "YOLOv10",
+      "bibtex_key": "wang2024yolov10",
+      "reference_type": "paper",
+      "url": "https://arxiv.org/abs/2405.14458",
+      "code": "https://github.com/THU-MIG/yolov10/blob/453c6e38a51e9d1d5a2aa5fb7f1014a711913397/README.md"
+    },
+    {
+      "method": "YOLO11",
+      "bibtex_key": "code_YOLO11",
+      "reference_type": "software",
+      "url": "https://github.com/ultralytics/ultralytics",
+      "code": "https://github.com/ultralytics/ultralytics/blob/aa1f778a75a610f7dd2aa4762df1c25f6a3063d7/README.md"
+    },
+    {
+      "method": "LiDAR–image alignment and labeling",
+      "bibtex_key": "code_LiDAR_image_alignment_and_labeling",
+      "reference_type": "software",
+      "url": "https://github.com/Blank-Paradox/LiDAR-and-visible-light-MMAUD-dataset",
+      "code": "https://github.com/Blank-Paradox/LiDAR-and-visible-light-MMAUD-dataset/blob/fd214ab28c629ba20cf8b906c7a4bd07cd3c695e/Preprocessing/lidar/gt_calibration.py"
+    },
+    {
+      "method": "LiDAR trajectory labeling tool",
+      "bibtex_key": "code_LiDAR_trajectory_labeling_tool",
+      "reference_type": "software",
+      "url": "https://github.com/Hsief/lidar-trajectory-label-tool",
+      "code": "https://github.com/Hsief/lidar-trajectory-label-tool/blob/8715ede3ccff1f51b4fc3542580f305d8a61f1d5/mmaud_match_and_label_config.py"
+    },
+    {
+      "method": "MMAUD synthetic data generation",
+      "bibtex_key": "code_MMAUD_synthetic_data_generation",
+      "reference_type": "software",
+      "url": "https://github.com/C-nwokoye/MMAUD_Research",
+      "code": "https://github.com/C-nwokoye/MMAUD_Research/blob/3fd9e714293c28a0fb91c02cded785615ec335bf/build_scene.py"
+    },
+    {
+      "method": "Sound Processing toolkit",
+      "bibtex_key": "code_Sound_Processing_toolkit",
+      "reference_type": "software",
+      "url": "https://github.com/vb-pogribnyi/sound_processing",
+      "code": "https://github.com/vb-pogribnyi/sound_processing/blob/4719cacd9d197addbc21dafe49fb3518606026c5/Training/train.py"
+    },
+    {
+      "method": "EvoKF trajectory experiments",
+      "bibtex_key": "code_EvoKF_trajectory_experiments",
+      "reference_type": "software",
+      "url": "https://github.com/mihaozbot/Evolving-drone-tracking",
+      "code": "https://github.com/mihaozbot/Evolving-drone-tracking/blob/83b525614a6a90a78ff14b1f6d04eef63694906b/python/behaviour.py"
+    }
+  ],
+  "expanded_on": "2026-10-26",
+  "catalogue_counts": {
+    "mmaud_methods_pipelines_and_backbones": 16,
+    "general_detector_families": 4,
+    "additional_tools": 5,
+    "original_methods": 11
+  },
+  "resource_citations": [
+    {
+      "name": "ResNet",
+      "code": "https://github.com/yizhuoyang/AV-FDTI",
+      "bibtex_keys": [
+        "he2016resnet"
+      ],
+      "references": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.1109/cvpr.2016.90",
+          "type": "paper"
+        }
+      ],
+      "variant": false,
+      "bibtex_lines": {
+        "he2016resnet": 10
+      }
+    },
+    {
+      "name": "Darknet",
+      "code": "https://github.com/yizhuoyang/AV-FDTI",
+      "bibtex_keys": [
+        "redmon2018yolov3"
+      ],
+      "references": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/1804.02767",
+          "type": "paper"
+        }
+      ],
+      "variant": false,
+      "bibtex_lines": {
+        "redmon2018yolov3": 20
+      }
+    },
+    {
+      "name": "VorasNet / DroneChase",
+      "code": "https://github.com/yizhuoyang/AV-FDTI",
+      "bibtex_keys": [
+        "vora2023dronechase"
+      ],
+      "references": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.1145/3597060.3597237",
+          "type": "paper"
+        }
+      ],
+      "variant": false,
+      "bibtex_lines": {
+        "vora2023dronechase": 30
+      }
+    },
+    {
+      "name": "AV-PED",
+      "code": "https://github.com/yizhuoyang/AV-FDTI",
+      "bibtex_keys": [
+        "yang2023avpedaware"
+      ],
+      "references": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.1109/iros55552.2023.10342257",
+          "type": "paper"
+        }
+      ],
+      "variant": false,
+      "bibtex_lines": {
+        "yang2023avpedaware": 40
+      }
+    },
+    {
+      "name": "Audionet",
+      "code": "https://github.com/yizhuoyang/AV-FDTI",
+      "bibtex_keys": [
+        "yang2023avpedaware"
+      ],
+      "references": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.1109/iros55552.2023.10342257",
+          "type": "paper"
+        }
+      ],
+      "variant": false,
+      "bibtex_lines": {
+        "yang2023avpedaware": 40
+      }
+    },
+    {
+      "name": "AV-FDTI",
+      "code": "https://github.com/yizhuoyang/AV-FDTI",
+      "bibtex_keys": [
+        "yang2024avfdti"
+      ],
+      "references": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.1016/j.jai.2024.06.002",
+          "type": "paper"
+        }
+      ],
+      "variant": false,
+      "bibtex_lines": {
+        "yang2024avfdti": 50
+      }
+    },
+    {
+      "name": "TAME",
+      "code": "https://github.com/AmazingDay1/TAME",
+      "bibtex_keys": [
+        "xiao2025tame"
+      ],
+      "references": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.1109/icassp49660.2025.10888776",
+          "type": "paper"
+        }
+      ],
+      "variant": false,
+      "bibtex_lines": {
+        "xiao2025tame": 62
+      }
+    },
+    {
+      "name": "AAUTE",
+      "code": "https://github.com/AllenLei666/AAUTE",
+      "bibtex_keys": [
+        "lei2025aaute"
+      ],
+      "references": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.1109/icassp49660.2025.10887734",
+          "type": "paper"
+        }
+      ],
+      "variant": false,
+      "bibtex_lines": {
+        "lei2025aaute": 72
+      }
+    },
+    {
+      "name": "UnLiDAR",
+      "code": "https://github.com/lianghanfang/ICASSP-LiDAR-Drone-Detect",
+      "bibtex_keys": [
+        "liang2025unlidar"
+      ],
+      "references": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.1109/icassp49660.2025.10890359",
+          "type": "paper"
+        }
+      ],
+      "variant": false,
+      "bibtex_lines": {
+        "liang2025unlidar": 82
+      }
+    },
+    {
+      "name": "MMUDCT",
+      "code": "https://github.com/dtc111111/Multi-Modal-UAV",
+      "bibtex_keys": [
+        "deng2024mmudct"
+      ],
+      "references": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2405.16464",
+          "type": "paper"
+        }
+      ],
+      "variant": false,
+      "bibtex_lines": {
+        "deng2024mmudct": 92
+      }
+    },
+    {
+      "name": "AV-DTEC",
+      "code": "https://github.com/AmazingDay1/AV-DETC",
+      "bibtex_keys": [
+        "xiao2026avdtec"
+      ],
+      "references": [
+        {
+          "label": "Paper",
+          "url": "https://doi.org/10.1109/jsen.2026.3680898",
+          "type": "paper"
+        }
+      ],
+      "variant": false,
+      "bibtex_lines": {
+        "xiao2026avdtec": 102
+      }
+    },
+    {
+      "name": "LMMUAVC — lightweight fusion",
+      "code": "https://github.com/huanyuFENG-KONG/LMMUAVC",
+      "bibtex_keys": [
+        "code_LMMUAVC_lightweight_fusion"
+      ],
+      "references": [
+        {
+          "label": "Software DOI",
+          "url": "https://doi.org/10.5281/zenodo.22670375",
+          "type": "software"
+        }
+      ],
+      "variant": false,
+      "bibtex_lines": {
+        "code_LMMUAVC_lightweight_fusion": 114
+      }
+    },
+    {
+      "name": "TARF",
+      "code": "https://github.com/hasiburrahman875/tarf_mmuav",
+      "bibtex_keys": [
+        "code_TARF"
+      ],
+      "references": [
+        {
+          "label": "Software notes",
+          "url": "https://github.com/hasiburrahman875/tarf_mmuav",
+          "type": "software"
+        }
+      ],
+      "variant": false,
+      "bibtex_lines": {
+        "code_TARF": 124
+      }
+    },
+    {
+      "name": "MMAUD acoustic Transformer",
+      "code": "https://github.com/Shubham-3256/Baseline-MMAUD-acoustic-transformer-implementation-p2",
+      "bibtex_keys": [
+        "code_MMAUD_acoustic_Transformer"
+      ],
+      "references": [
+        {
+          "label": "Software notes",
+          "url": "https://github.com/Shubham-3256/Baseline-MMAUD-acoustic-transformer-implementation-p2",
+          "type": "software"
+        }
+      ],
+      "variant": false,
+      "bibtex_lines": {
+        "code_MMAUD_acoustic_Transformer": 132
+      }
+    },
+    {
+      "name": "YOLOv8 + geometry + Kalman tracking",
+      "code": "https://github.com/sebovelan/drone-multimodal-detection",
+      "bibtex_keys": [
+        "code_YOLOv8_geometry_Kalman_tracking"
+      ],
+      "references": [
+        {
+          "label": "Software notes",
+          "url": "https://github.com/sebovelan/drone-multimodal-detection",
+          "type": "software"
+        }
+      ],
+      "variant": false,
+      "bibtex_lines": {
+        "code_YOLOv8_geometry_Kalman_tracking": 140
+      }
+    },
+    {
+      "name": "PointNeXt-S",
+      "code": "https://github.com/guochengqian/PointNeXt",
+      "bibtex_keys": [
+        "qian2022pointnext"
+      ],
+      "references": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2206.04670",
+          "type": "paper"
+        }
+      ],
+      "variant": false,
+      "bibtex_lines": {
+        "qian2022pointnext": 148
+      }
+    },
+    {
+      "name": "YOLOv8",
+      "code": "https://github.com/ultralytics/ultralytics",
+      "bibtex_keys": [
+        "code_YOLOv8"
+      ],
+      "references": [
+        {
+          "label": "Software notes",
+          "url": "https://github.com/ultralytics/ultralytics",
+          "type": "software"
+        }
+      ],
+      "variant": false,
+      "bibtex_lines": {
+        "code_YOLOv8": 156
+      }
+    },
+    {
+      "name": "YOLOv10",
+      "code": "https://github.com/THU-MIG/yolov10",
+      "bibtex_keys": [
+        "wang2024yolov10"
+      ],
+      "references": [
+        {
+          "label": "Paper",
+          "url": "https://arxiv.org/abs/2405.14458",
+          "type": "paper"
+        }
+      ],
+      "variant": false,
+      "bibtex_lines": {
+        "wang2024yolov10": 164
+      }
+    },
+    {
+      "name": "YOLO11",
+      "code": "https://github.com/ultralytics/ultralytics",
+      "bibtex_keys": [
+        "code_YOLO11"
+      ],
+      "references": [
+        {
+          "label": "Software notes",
+          "url": "https://github.com/ultralytics/ultralytics",
+          "type": "software"
+        }
+      ],
+      "variant": false,
+      "bibtex_lines": {
+        "code_YOLO11": 173
+      }
+    },
+    {
+      "name": "LiDAR–image alignment and labeling",
+      "code": "https://github.com/Blank-Paradox/LiDAR-and-visible-light-MMAUD-dataset",
+      "bibtex_keys": [
+        "code_LiDAR_image_alignment_and_labeling"
+      ],
+      "references": [
+        {
+          "label": "Software notes",
+          "url": "https://github.com/Blank-Paradox/LiDAR-and-visible-light-MMAUD-dataset",
+          "type": "software"
+        }
+      ],
+      "variant": false,
+      "bibtex_lines": {
+        "code_LiDAR_image_alignment_and_labeling": 181
+      }
+    },
+    {
+      "name": "LiDAR trajectory labeling tool",
+      "code": "https://github.com/Hsief/lidar-trajectory-label-tool",
+      "bibtex_keys": [
+        "code_LiDAR_trajectory_labeling_tool"
+      ],
+      "references": [
+        {
+          "label": "Software notes",
+          "url": "https://github.com/Hsief/lidar-trajectory-label-tool",
+          "type": "software"
+        }
+      ],
+      "variant": false,
+      "bibtex_lines": {
+        "code_LiDAR_trajectory_labeling_tool": 189
+      }
+    },
+    {
+      "name": "MMAUD synthetic data generation",
+      "code": "https://github.com/C-nwokoye/MMAUD_Research",
+      "bibtex_keys": [
+        "code_MMAUD_synthetic_data_generation"
+      ],
+      "references": [
+        {
+          "label": "Software notes",
+          "url": "https://github.com/C-nwokoye/MMAUD_Research",
+          "type": "software"
+        }
+      ],
+      "variant": false,
+      "bibtex_lines": {
+        "code_MMAUD_synthetic_data_generation": 197
+      }
+    },
+    {
+      "name": "Sound Processing toolkit",
+      "code": "https://github.com/vb-pogribnyi/sound_processing",
+      "bibtex_keys": [
+        "code_Sound_Processing_toolkit"
+      ],
+      "references": [
+        {
+          "label": "Software notes",
+          "url": "https://github.com/vb-pogribnyi/sound_processing",
+          "type": "software"
+        }
+      ],
+      "variant": false,
+      "bibtex_lines": {
+        "code_Sound_Processing_toolkit": 205
+      }
+    },
+    {
+      "name": "EvoKF trajectory experiments",
+      "code": "https://github.com/mihaozbot/Evolving-drone-tracking",
+      "bibtex_keys": [
+        "code_EvoKF_trajectory_experiments"
+      ],
+      "references": [
+        {
+          "label": "Software notes",
+          "url": "https://github.com/mihaozbot/Evolving-drone-tracking",
+          "type": "software"
+        }
+      ],
+      "variant": false,
+      "bibtex_lines": {
+        "code_EvoKF_trajectory_experiments": 213
+      }
+    },
+    {
+      "name": "YOLOv5",
+      "code": "https://github.com/ultralytics/yolov5",
+      "bibtex_keys": [
+        "code_YOLOv5"
+      ],
+      "references": [
+        {
+          "label": "Software notes",
+          "url": "https://github.com/ultralytics/yolov5#readme",
+          "type": "software"
+        }
+      ],
+      "variant": false,
+      "bibtex_lines": {
+        "code_YOLOv5": 221
+      }
+    },
+    {
+      "name": "ResNet / VisualNet, AudioNet and VorasNet",
+      "code": "https://github.com/hxlei0827/UAV_comparison",
+      "bibtex_keys": [
+        "code_ResNet_VisualNet_AudioNet_and_VorasNet"
+      ],
+      "references": [
+        {
+          "label": "Software notes",
+          "url": "https://github.com/hxlei0827/UAV_comparison#readme",
+          "type": "software"
+        }
+      ],
+      "variant": true,
+      "bibtex_lines": {
+        "code_ResNet_VisualNet_AudioNet_and_VorasNet": 229
+      }
+    },
+    {
+      "name": "AAUTE-style audio CNN",
+      "code": "https://github.com/Shubham-3256/audio-uav-trajectory-p1-",
+      "bibtex_keys": [
+        "code_AAUTE_style_audio_CNN"
+      ],
+      "references": [
+        {
+          "label": "Software notes",
+          "url": "https://github.com/Shubham-3256/audio-uav-trajectory-p1-#readme",
+          "type": "software"
+        }
+      ],
+      "variant": true,
+      "bibtex_lines": {
+        "code_AAUTE_style_audio_CNN": 237
+      }
+    }
+  ],
+  "consistency_audit": {
+    "checked_on": "2026-10-26",
+    "dataset_bibtex_key": "yuan2024MMAUD",
+    "bibliography": "MMAUD_BASELINES.bib",
+    "resources": [
+      {
+        "name": "ResNet",
+        "code": "https://github.com/yizhuoyang/AV-FDTI",
+        "bibtex_keys": [
+          "he2016resnet"
+        ],
+        "references": [
+          {
+            "label": "Paper",
+            "url": "https://doi.org/10.1109/cvpr.2016.90",
+            "type": "paper"
+          }
+        ],
+        "variant": false,
+        "bibtex_lines": {
+          "he2016resnet": 10
+        }
+      },
+      {
+        "name": "Darknet",
+        "code": "https://github.com/yizhuoyang/AV-FDTI",
+        "bibtex_keys": [
+          "redmon2018yolov3"
+        ],
+        "references": [
+          {
+            "label": "Paper",
+            "url": "https://arxiv.org/abs/1804.02767",
+            "type": "paper"
+          }
+        ],
+        "variant": false,
+        "bibtex_lines": {
+          "redmon2018yolov3": 20
+        }
+      },
+      {
+        "name": "VorasNet / DroneChase",
+        "code": "https://github.com/yizhuoyang/AV-FDTI",
+        "bibtex_keys": [
+          "vora2023dronechase"
+        ],
+        "references": [
+          {
+            "label": "Paper",
+            "url": "https://doi.org/10.1145/3597060.3597237",
+            "type": "paper"
+          }
+        ],
+        "variant": false,
+        "bibtex_lines": {
+          "vora2023dronechase": 30
+        }
+      },
+      {
+        "name": "AV-PED",
+        "code": "https://github.com/yizhuoyang/AV-FDTI",
+        "bibtex_keys": [
+          "yang2023avpedaware"
+        ],
+        "references": [
+          {
+            "label": "Paper",
+            "url": "https://doi.org/10.1109/iros55552.2023.10342257",
+            "type": "paper"
+          }
+        ],
+        "variant": false,
+        "bibtex_lines": {
+          "yang2023avpedaware": 40
+        }
+      },
+      {
+        "name": "Audionet",
+        "code": "https://github.com/yizhuoyang/AV-FDTI",
+        "bibtex_keys": [
+          "yang2023avpedaware"
+        ],
+        "references": [
+          {
+            "label": "Paper",
+            "url": "https://doi.org/10.1109/iros55552.2023.10342257",
+            "type": "paper"
+          }
+        ],
+        "variant": false,
+        "bibtex_lines": {
+          "yang2023avpedaware": 40
+        }
+      },
+      {
+        "name": "AV-FDTI",
+        "code": "https://github.com/yizhuoyang/AV-FDTI",
+        "bibtex_keys": [
+          "yang2024avfdti"
+        ],
+        "references": [
+          {
+            "label": "Paper",
+            "url": "https://doi.org/10.1016/j.jai.2024.06.002",
+            "type": "paper"
+          }
+        ],
+        "variant": false,
+        "bibtex_lines": {
+          "yang2024avfdti": 50
+        }
+      },
+      {
+        "name": "TAME",
+        "code": "https://github.com/AmazingDay1/TAME",
+        "bibtex_keys": [
+          "xiao2025tame"
+        ],
+        "references": [
+          {
+            "label": "Paper",
+            "url": "https://doi.org/10.1109/icassp49660.2025.10888776",
+            "type": "paper"
+          }
+        ],
+        "variant": false,
+        "bibtex_lines": {
+          "xiao2025tame": 62
+        }
+      },
+      {
+        "name": "AAUTE",
+        "code": "https://github.com/AllenLei666/AAUTE",
+        "bibtex_keys": [
+          "lei2025aaute"
+        ],
+        "references": [
+          {
+            "label": "Paper",
+            "url": "https://doi.org/10.1109/icassp49660.2025.10887734",
+            "type": "paper"
+          }
+        ],
+        "variant": false,
+        "bibtex_lines": {
+          "lei2025aaute": 72
+        }
+      },
+      {
+        "name": "UnLiDAR",
+        "code": "https://github.com/lianghanfang/ICASSP-LiDAR-Drone-Detect",
+        "bibtex_keys": [
+          "liang2025unlidar"
+        ],
+        "references": [
+          {
+            "label": "Paper",
+            "url": "https://doi.org/10.1109/icassp49660.2025.10890359",
+            "type": "paper"
+          }
+        ],
+        "variant": false,
+        "bibtex_lines": {
+          "liang2025unlidar": 82
+        }
+      },
+      {
+        "name": "MMUDCT",
+        "code": "https://github.com/dtc111111/Multi-Modal-UAV",
+        "bibtex_keys": [
+          "deng2024mmudct"
+        ],
+        "references": [
+          {
+            "label": "Paper",
+            "url": "https://arxiv.org/abs/2405.16464",
+            "type": "paper"
+          }
+        ],
+        "variant": false,
+        "bibtex_lines": {
+          "deng2024mmudct": 92
+        }
+      },
+      {
+        "name": "AV-DTEC",
+        "code": "https://github.com/AmazingDay1/AV-DETC",
+        "bibtex_keys": [
+          "xiao2026avdtec"
+        ],
+        "references": [
+          {
+            "label": "Paper",
+            "url": "https://doi.org/10.1109/jsen.2026.3680898",
+            "type": "paper"
+          }
+        ],
+        "variant": false,
+        "bibtex_lines": {
+          "xiao2026avdtec": 102
+        }
+      },
+      {
+        "name": "LMMUAVC — lightweight fusion",
+        "code": "https://github.com/huanyuFENG-KONG/LMMUAVC",
+        "bibtex_keys": [
+          "code_LMMUAVC_lightweight_fusion"
+        ],
+        "references": [
+          {
+            "label": "Software DOI",
+            "url": "https://doi.org/10.5281/zenodo.22670375",
+            "type": "software"
+          }
+        ],
+        "variant": false,
+        "bibtex_lines": {
+          "code_LMMUAVC_lightweight_fusion": 114
+        }
+      },
+      {
+        "name": "TARF",
+        "code": "https://github.com/hasiburrahman875/tarf_mmuav",
+        "bibtex_keys": [
+          "code_TARF"
+        ],
+        "references": [
+          {
+            "label": "Software notes",
+            "url": "https://github.com/hasiburrahman875/tarf_mmuav",
+            "type": "software"
+          }
+        ],
+        "variant": false,
+        "bibtex_lines": {
+          "code_TARF": 124
+        }
+      },
+      {
+        "name": "MMAUD acoustic Transformer",
+        "code": "https://github.com/Shubham-3256/Baseline-MMAUD-acoustic-transformer-implementation-p2",
+        "bibtex_keys": [
+          "code_MMAUD_acoustic_Transformer"
+        ],
+        "references": [
+          {
+            "label": "Software notes",
+            "url": "https://github.com/Shubham-3256/Baseline-MMAUD-acoustic-transformer-implementation-p2",
+            "type": "software"
+          }
+        ],
+        "variant": false,
+        "bibtex_lines": {
+          "code_MMAUD_acoustic_Transformer": 132
+        }
+      },
+      {
+        "name": "YOLOv8 + geometry + Kalman tracking",
+        "code": "https://github.com/sebovelan/drone-multimodal-detection",
+        "bibtex_keys": [
+          "code_YOLOv8_geometry_Kalman_tracking"
+        ],
+        "references": [
+          {
+            "label": "Software notes",
+            "url": "https://github.com/sebovelan/drone-multimodal-detection",
+            "type": "software"
+          }
+        ],
+        "variant": false,
+        "bibtex_lines": {
+          "code_YOLOv8_geometry_Kalman_tracking": 140
+        }
+      },
+      {
+        "name": "PointNeXt-S",
+        "code": "https://github.com/guochengqian/PointNeXt",
+        "bibtex_keys": [
+          "qian2022pointnext"
+        ],
+        "references": [
+          {
+            "label": "Paper",
+            "url": "https://arxiv.org/abs/2206.04670",
+            "type": "paper"
+          }
+        ],
+        "variant": false,
+        "bibtex_lines": {
+          "qian2022pointnext": 148
+        }
+      },
+      {
+        "name": "YOLOv8",
+        "code": "https://github.com/ultralytics/ultralytics",
+        "bibtex_keys": [
+          "code_YOLOv8"
+        ],
+        "references": [
+          {
+            "label": "Software notes",
+            "url": "https://github.com/ultralytics/ultralytics",
+            "type": "software"
+          }
+        ],
+        "variant": false,
+        "bibtex_lines": {
+          "code_YOLOv8": 156
+        }
+      },
+      {
+        "name": "YOLOv10",
+        "code": "https://github.com/THU-MIG/yolov10",
+        "bibtex_keys": [
+          "wang2024yolov10"
+        ],
+        "references": [
+          {
+            "label": "Paper",
+            "url": "https://arxiv.org/abs/2405.14458",
+            "type": "paper"
+          }
+        ],
+        "variant": false,
+        "bibtex_lines": {
+          "wang2024yolov10": 164
+        }
+      },
+      {
+        "name": "YOLO11",
+        "code": "https://github.com/ultralytics/ultralytics",
+        "bibtex_keys": [
+          "code_YOLO11"
+        ],
+        "references": [
+          {
+            "label": "Software notes",
+            "url": "https://github.com/ultralytics/ultralytics",
+            "type": "software"
+          }
+        ],
+        "variant": false,
+        "bibtex_lines": {
+          "code_YOLO11": 173
+        }
+      },
+      {
+        "name": "LiDAR–image alignment and labeling",
+        "code": "https://github.com/Blank-Paradox/LiDAR-and-visible-light-MMAUD-dataset",
+        "bibtex_keys": [
+          "code_LiDAR_image_alignment_and_labeling"
+        ],
+        "references": [
+          {
+            "label": "Software notes",
+            "url": "https://github.com/Blank-Paradox/LiDAR-and-visible-light-MMAUD-dataset",
+            "type": "software"
+          }
+        ],
+        "variant": false,
+        "bibtex_lines": {
+          "code_LiDAR_image_alignment_and_labeling": 181
+        }
+      },
+      {
+        "name": "LiDAR trajectory labeling tool",
+        "code": "https://github.com/Hsief/lidar-trajectory-label-tool",
+        "bibtex_keys": [
+          "code_LiDAR_trajectory_labeling_tool"
+        ],
+        "references": [
+          {
+            "label": "Software notes",
+            "url": "https://github.com/Hsief/lidar-trajectory-label-tool",
+            "type": "software"
+          }
+        ],
+        "variant": false,
+        "bibtex_lines": {
+          "code_LiDAR_trajectory_labeling_tool": 189
+        }
+      },
+      {
+        "name": "MMAUD synthetic data generation",
+        "code": "https://github.com/C-nwokoye/MMAUD_Research",
+        "bibtex_keys": [
+          "code_MMAUD_synthetic_data_generation"
+        ],
+        "references": [
+          {
+            "label": "Software notes",
+            "url": "https://github.com/C-nwokoye/MMAUD_Research",
+            "type": "software"
+          }
+        ],
+        "variant": false,
+        "bibtex_lines": {
+          "code_MMAUD_synthetic_data_generation": 197
+        }
+      },
+      {
+        "name": "Sound Processing toolkit",
+        "code": "https://github.com/vb-pogribnyi/sound_processing",
+        "bibtex_keys": [
+          "code_Sound_Processing_toolkit"
+        ],
+        "references": [
+          {
+            "label": "Software notes",
+            "url": "https://github.com/vb-pogribnyi/sound_processing",
+            "type": "software"
+          }
+        ],
+        "variant": false,
+        "bibtex_lines": {
+          "code_Sound_Processing_toolkit": 205
+        }
+      },
+      {
+        "name": "EvoKF trajectory experiments",
+        "code": "https://github.com/mihaozbot/Evolving-drone-tracking",
+        "bibtex_keys": [
+          "code_EvoKF_trajectory_experiments"
+        ],
+        "references": [
+          {
+            "label": "Software notes",
+            "url": "https://github.com/mihaozbot/Evolving-drone-tracking",
+            "type": "software"
+          }
+        ],
+        "variant": false,
+        "bibtex_lines": {
+          "code_EvoKF_trajectory_experiments": 213
+        }
+      },
+      {
+        "name": "YOLOv5",
+        "code": "https://github.com/ultralytics/yolov5",
+        "bibtex_keys": [
+          "code_YOLOv5"
+        ],
+        "references": [
+          {
+            "label": "Software notes",
+            "url": "https://github.com/ultralytics/yolov5#readme",
+            "type": "software"
+          }
+        ],
+        "variant": false,
+        "bibtex_lines": {
+          "code_YOLOv5": 221
+        }
+      },
+      {
+        "name": "ResNet / VisualNet, AudioNet and VorasNet",
+        "code": "https://github.com/hxlei0827/UAV_comparison",
+        "bibtex_keys": [
+          "code_ResNet_VisualNet_AudioNet_and_VorasNet"
+        ],
+        "references": [
+          {
+            "label": "Software notes",
+            "url": "https://github.com/hxlei0827/UAV_comparison#readme",
+            "type": "software"
+          }
+        ],
+        "variant": true,
+        "bibtex_lines": {
+          "code_ResNet_VisualNet_AudioNet_and_VorasNet": 229
+        }
+      },
+      {
+        "name": "AAUTE-style audio CNN",
+        "code": "https://github.com/Shubham-3256/audio-uav-trajectory-p1-",
+        "bibtex_keys": [
+          "code_AAUTE_style_audio_CNN"
+        ],
+        "references": [
+          {
+            "label": "Software notes",
+            "url": "https://github.com/Shubham-3256/audio-uav-trajectory-p1-#readme",
+            "type": "software"
+          }
+        ],
+        "variant": true,
+        "bibtex_lines": {
+          "code_AAUTE_style_audio_CNN": 237
+        }
+      }
+    ],
+    "method_and_resource_count": 25,
+    "variant_count": 2,
+    "bibtex_entry_count": 27,
+    "verification": "Resource-to-citation mapping checked against author repositories, author paper pages and publisher DOI metadata. Dataset citation remains first."
+  }
+}
