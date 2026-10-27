@@ -31,6 +31,12 @@ If you use some resource from this data suite, please cite it as
 
 **📦 For the latest complete MMAUD dataset, please visit [Hugging Face](https://huggingface.co/datasets/Yuan-Shenghai/MMAUD).**
 
+## 🔊 Extracted background noise
+
+**6,588 original NumPy files · 12 groups · 5.057 GB.** The extracted background-noise collection is available on [Hugging Face](https://huggingface.co/datasets/Yuan-Shenghai/MMAUD/tree/main/background_noise/np_data_align), with the original `np_data_align` folders and filenames. Nonempty files contain `float32` arrays of shape `(48000, 4)`; 4 empty source arrays are preserved.
+
+[Format and loading examples](https://github.com/ntu-aris/MMAUD/blob/gh-pages/background_noise/README.md) · [SHA-256 checksums](https://huggingface.co/datasets/Yuan-Shenghai/MMAUD/resolve/main/background_noise/SHA256SUMS.txt) · [Original Google Drive folder](https://drive.google.com/drive/folders/1b0CzLFp_F1DHpxiAB3TYNQZiaF3KLfTd)
+
 <!--
 Note: The files below are hosted on [NTU Data Repository](https://researchdata.ntu.edu.sg/dataset.xhtml?persistentId=doi:10.21979/N9/X39LEK).
 If you experience interruption from the NTU Data Repository, please try downloading the files from this [Onedrive folder](https://entuedu-my.sharepoint.com/:f:/g/personal/shyuan_staff_main_ntu_edu_sg/EvyxXbi1l5tHonBWIQxueBoByr1-E-w7fgRyHNTsCmwFcg).
